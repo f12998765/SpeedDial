@@ -1,0 +1,52 @@
+body{
+    color: #666;
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+    color: #888;
+}
+a:hover{
+    color:#333;
+    text-decoration: underline;
+}
+img{
+    width: 1em;
+    height: 1em;
+    vertical-align:bottom;
+    margin-right: 5px;
+}
+.con{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.menu{
+    height: 5em;
+    line-height: 5em;
+    text-align: center;
+}
+
+.row{
+    height: 1em;
+    padding: 1em 0;
+    line-height: 1em;
+    border-bottom: 0.1em dashed #ccc;
+}
+
+.old{
+    background-color:#E6E6E6; 
+}
+
+.hr,.hh{
+    display: inline-block;
+    
+}
+.hh{
+    width: 4em;
+
+    padding: 0 2em 0 3em; 
+}
+.hr{
+    padding-right: 1em; 
+}
