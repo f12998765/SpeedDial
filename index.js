@@ -34,6 +34,7 @@ $(function(){
     .always(function(){ 
         $(".block").addClass('color');
         if (isMobile.any()) { 
+            $(".hh").css('display','block');
             $(".hh").css('width','100%');
             $(".hi").removeClass('tit');
             $(".block").removeClass('color');
