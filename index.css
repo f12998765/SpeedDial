@@ -14,7 +14,6 @@ img{
     width: 1em;
     height: 1em;
     vertical-align:bottom;
-    margin-right: 5px;
 }
 .con{
     width: 90%;
@@ -27,26 +26,34 @@ img{
     text-align: center;
 }
 
-.row{
-    height: 1em;
+.hi{
     padding: 1em 0;
+    height: 1em;
     line-height: 1em;
-    border-bottom: 0.1em dashed #ccc;
+   
 }
 
-.old{
-    background-color:#E6E6E6; 
+.block{
+    width: 100%;
+    min-height: 3em;
+    
+}
+.color{
+    border-bottom: 0.1em dashed #ccc;
 }
 
 .hr,.hh{
     display: inline-block;
-    
+    float: left;
 }
 .hh{
     width: 4em;
-
-    padding: 0 2em 0 3em; 
 }
 .hr{
-    padding-right: 1em; 
+    padding-right: 1.5em; 
+}
+
+.tit{
+    padding-left: 3em;
+    padding-right: 2.5em;
 }

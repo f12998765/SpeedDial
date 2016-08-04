@@ -1,0 +1,246 @@
+[
+    {
+        "tit": "成长",
+        "list": [
+            {
+                "name": "慕课网",
+                "url": "http://www.imooc.com/"
+            },
+            {
+                "name": "极客学院",
+                "url": "http://www.jikexueyuan.com/"
+            },
+            {
+                "name": "菜鸟教程",
+                "url": "http://www.runoob.com/"
+            },
+            {
+                "name": "牛客网",
+                "url": "http://www.nowcoder.com/"
+            },
+            {
+                "name": "Codewars",
+                "url": "https://www.codewars.com"
+            },
+            {
+                "name": "LeetCode",
+                "url": "https://leetcode.com/"
+            },
+            {
+                "name": "SegmentFault",
+                "url": "https://segmentfault.com/"
+            },
+            {
+                "name": "字节技术",
+                "url": "http://www.4byte.cn/"
+            }
+        ]
+    },
+    {
+        "tit": "项目",
+        "list": [
+            {
+                "name": "Coding",
+                "url": "https://coding.net"
+            },
+            {
+                "name": "Github",
+                "url": "https://github.com/"
+            },
+            {
+                "name": "GitBook",
+                "url": "https://www.gitbook.com"
+            },
+            {
+                "name": "前端资源库",
+                "url": "https://www.awesomes.cn/"
+            },
+            {
+                "name": "火狐MDN",
+                "url": "https://developer.mozilla.org/zh-CN/"
+            }
+        ]
+    },
+    {
+        "tit": "工具",
+        "list": [
+            {
+                "name": "石墨文档",
+                "url": "https://shimo.im/desktop"
+            },
+            {
+                "name": "简洁的云笔记",
+                "url": "http://showtxt.cn/pont"
+            },
+            {
+                "name": "OfficePLUS",
+                "url": "http://www.officeplus.cn/Template/Home.shtml"
+            },
+            {
+                "name": "极客导航",
+                "url": "http://www.gogeeks.cn/"
+            },
+            {
+                "name": "howsoftworks",
+                "url": "http://www.howsoftworks.net/"
+            }
+        ]
+    },
+    {
+        "tit": "生活",
+        "list": [
+            {
+                "name": "豆瓣FM",
+                "url": "https://douban.fm/"
+            },
+            {
+                "name": "网易云音乐",
+                "url": "http://music.163.com/"
+            },
+            {
+                "name": "BiliBili",
+                "url": "http://www.bilibili.com/"
+            },
+            {
+                "name": "书格",
+                "url": "https://shuge.org/"
+            }
+        ]
+    },
+    {
+        "tit": "游戏",
+        "list": [
+            {
+                "name": "触乐",
+                "url": "http://www.chuapp.com/"
+            },
+            {
+                "name": "MC中文论坛",
+                "url": "http://www.mcbbs.net/"
+            },
+            {
+                "name": "游民星空",
+                "url": "http://www.gamersky.com/"
+            },
+            {
+                "name": "3DM Game",
+                "url": "http://www.3dmgame.com/"
+            },
+            {
+                "name": "奶牛关游戏",
+                "url": "https://cowlevel.net/"
+            },
+            {
+                "name": "CBI游戏天地",
+                "url": "http://www.cbigame.com/"
+            }
+        ]
+    },
+    {
+        "tit": "Steam",
+        "list": [
+            {
+                "name": "Steam",
+                "url": "http://store.steampowered.com/"
+            },
+            {
+                "name": "SteamCN",
+                "url": "http://steamcn.com/"
+            },
+            {
+                "name": "杉果游戏",
+                "url": "http://www.sonkwo.com/"
+            },
+            {
+                "name": "SteamDB",
+                "url": "https://steamdb.info/"
+            },
+            {
+                "name": "HB 慈善包",
+                "url": "https://www.humblebundle.com/"
+            },
+            {
+                "name": "FAILMID",
+                "url": "http://failmid.com/"
+            }
+        ]
+    },
+    {
+        "tit": "发现",
+        "list": [
+            {
+                "name": "V2EX",
+                "url": "http://v2ex.com/"
+            },
+            {
+                "name": "开源中国",
+                "url": "http://www.oschina.net/"
+            },
+            {
+                "name": "博客园",
+                "url": "http://www.cnblogs.com/"
+            },
+            {
+                "name": "稀土掘金",
+                "url": "http://gold.xitu.io/"
+            },
+            {
+                "name": "36kr-NEXT",
+                "url": "http://next.36kr.com/posts"
+            },
+            {
+                "name": "最美应用",
+                "url": "http://zuimeia.com/"
+            },
+            {
+                "name": "小众软件",
+                "url": "http://www.appinn.com/"
+            },
+            {
+                "name": "异次元软件",
+                "url": "http://www.iplaysoft.com/"
+            },
+            {
+                "name": "小俊博客",
+                "url": "http://xiaojun911.com/"
+            }
+        ]
+    },
+    {
+        "tit": "博客",
+        "list": [
+            {
+                "name": "YouMeek",
+                "url": "http://www.youmeek.com/"
+            },
+            {
+                "name": "麦田技术博客",
+                "url": "http://blog.itmyhome.com/"
+            },
+            {
+                "name": "杰夫设计",
+                "url": "http://www.imjeff.cn/"
+            },
+            {
+                "name": "前端养成记",
+                "url": "http://loyalsoldier.me/"
+            },
+            {
+                "name": "SharEDITor",
+                "url": "http://www.shareditor.com/"
+            },
+            {
+                "name": "Hollis",
+                "url": "http://www.hollischuang.com/"
+            },
+            {
+                "name": "G-VAR",
+                "url": "http://www.g-var.com/"
+            },
+            {
+                "name": "晚晴幽草轩",
+                "url": "http://www.jeffjade.com/"
+            }
+        ]
+    }
+]

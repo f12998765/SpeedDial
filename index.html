@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
-    <link rel="shortcut icon" href="favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
     <script src="jquery-3.1.0.min.js"></script>
@@ -12,24 +12,26 @@
     <script src="index.js"></script>
     <script id="demo" type="text/html">
     {{# for(var i = 0,len = d.length; i <len;i++){ }}
-    {{# if(i%2==1) {}}
-    <div class="row">
-    {{# }else{ }}
-    <div class="row old">
-    {{# } }}
-        <div class="hh">{{ d[i].tit }}</div>
+
+    <div class="block">
+        <div class="hh hi tit">{{ d[i].tit }}</div>
         {{# for(var j = 0,len1 = d[i].list.length; j <len1;j++){ }}
-        <div class="hr"><a href={{ d[i].list[j].url }} target="_blank"><img src="https://api.byi.pw/favicon/?url={{ d[i].list[j].url }}" />{{ d[i].list[j].name }}</a> </div>
+        <div class="hr hi">
+            <img src="http://api.byi.pw/favicon/?url={{ d[i].list[j].url }}" />
+            <a href={{ d[i].list[j].url }} target="_blank">
+                {{ d[i].list[j].name }}
+            </a> 
+        </div>
         {{# } }}
     </div>
+    
     {{# } }}
     </script>
 
 
     <div class="con">
-
-        <div class="row">
-            <div class="hh">网址索引</div>
+        <div class="hi color tit">
+            网址索引
         </div>
 
         <div id="view"></div>
