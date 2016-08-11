@@ -11,49 +11,57 @@ a:hover{
     text-decoration: underline;
 }
 img{
-    width: 1em;
-    height: 1em;
-    vertical-align:bottom;
+    width: 1.05em;
+    height: 1.05em;
+    margin-bottom: -0.2em;
 }
 .con{
+    padding-top: 1.6em;
     width: 90%;
     margin: 0 auto;
 }
 
-.menu{
-    height: 5em;
-    line-height: 5em;
-    text-align: center;
+@media all and (min-width: 1366px) {
+    .row{
+        display: flex;
+        border-bottom: 0.1em dashed #ccc;
+    }
+
+    .list{
+        flex-wrap:wrap;
+    }
+    .block{
+        height: 3em;
+        line-height: 3em;
+        padding-right: 1.2em;
+        display: inline-block;
+
+    }
+
+    .tit{
+        flex: none;
+        float: left;
+        align-self:center;
+        width: 3em;
+        padding: 0 3em;
+        text-align: left;
+        
+    }
 }
 
-.hi{
-    padding: 1em 0;
-    height: 1em;
-    line-height: 1em;
-   
-}
+@media all and (max-width: 1365px) {
+    .block{
+        height: 3em;
+        line-height: 3em;
+        padding-right: 1.5em;
+        display: inline-block;
+        
+    }
 
-.block{
-    width: 100%;
-    min-height: 3em;
-    
-}
-.color{
-    border-bottom: 0.1em dashed #ccc;
-}
-
-.hr,.hh{
-    display: inline-block;
-    float: left;
-}
-.hh{
-    width: 4em;
-}
-.hr{
-    padding-right: 1.5em; 
-}
-
-.tit{
-    padding-left: 3em;
-    padding-right: 2.5em;
+    .tit{
+        padding: 2em 0;
+        text-align: left;
+        width: 100%;
+        border-bottom: 0.1em dashed #ccc;   
+    } 
 }

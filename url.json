@@ -1,5 +1,31 @@
 [
     {
+        "tit": "索引",
+        "list": [
+			{
+                "name": "Google",
+                "url": "https://www.google.com.hk"
+            },
+			{
+                "name": "DuckDuckGo",
+                "url": "https://duckduckgo.com/"
+            },
+			{
+                "name": "百度",
+                "url": "https://www.baidu.com/"
+            },
+			{
+                "name": "垂直导航",
+                "url": "http://www.51index.cn/"
+            },
+			{
+                "name": "极客导航",
+                "url": "http://www.gogeeks.cn/"
+            }
+		
+		]
+    },
+    {
         "tit": "成长",
         "list": [
             {
@@ -9,6 +35,10 @@
             {
                 "name": "极客学院",
                 "url": "http://www.jikexueyuan.com/"
+            },
+            {
+                "name": "实验楼",
+                "url": "https://www.shiyanlou.com/"
             },
             {
                 "name": "菜鸟教程",
@@ -25,10 +55,6 @@
             {
                 "name": "LeetCode",
                 "url": "https://leetcode.com/"
-            },
-            {
-                "name": "SegmentFault",
-                "url": "https://segmentfault.com/"
             },
             {
                 "name": "字节技术",
@@ -52,12 +78,86 @@
                 "url": "https://www.gitbook.com"
             },
             {
+                "name": "腾讯云",
+                "url": "https://www.qcloud.com/"
+            },
+            {
+                "name": "七牛云",
+                "url": "http://www.qiniu.com/"
+            }
+        ]
+    },
+    {
+        "tit": "前端",
+        "list": [
+            {
+                "name": "laytpl",
+                "url": "http://laytpl.layui.com/"
+            },
+            {
+                "name": "Div.IO",
+                "url": "http://div.io/#/welcome"
+            },
+            {
+                "name": "课多周刊",
+                "url": "https://www.w3crange.com/"
+            },
+            {
                 "name": "前端资源库",
                 "url": "https://www.awesomes.cn/"
             },
             {
                 "name": "火狐MDN",
                 "url": "https://developer.mozilla.org/zh-CN/"
+            },
+			{
+				"name":"前端导航网",
+				"url":"http://jsdig.com/"
+			}
+        ]
+    },
+    {
+        "tit": "资讯",
+        "list": [
+            {
+                "name": "V2EX",
+                "url": "https://v2ex.com/"
+            },
+			{
+                "name": "cnBeta",
+                "url": "http://www.cnbeta.com/"
+            },
+            {
+                "name": "InfoQ",
+                "url": "http://www.infoq.com/cn/"
+            },
+            {
+                "name": "码农网",
+                "url": "http://www.codeceo.com/"
+            },
+            {
+                "name": "推酷",
+                "url": "http://www.tuicool.com/"
+            },
+            {
+                "name": "掘金",
+                "url": "http://gold.xitu.io/"
+            },
+            {
+                "name": "图灵社区",
+                "url": "http://www.ituring.com.cn/"
+            },
+            {
+                "name": "开源中国",
+                "url": "http://www.oschina.net/"
+            },
+            {
+                "name": "博客园",
+                "url": "http://www.cnblogs.com/"
+            },
+            {
+                "name": "SegmentFault",
+                "url": "https://segmentfault.com/"
             }
         ]
     },
@@ -65,20 +165,28 @@
         "tit": "工具",
         "list": [
             {
+                "name": "谷歌翻译",
+                "url": "https://translate.google.com.hk/"
+            },
+			{
+                "name": "百度翻译",
+                "url": "http://fanyi.baidu.com/"
+            },
+			{
                 "name": "石墨文档",
                 "url": "https://shimo.im/desktop"
             },
             {
-                "name": "简洁的云笔记",
+                "name": "云笔记",
                 "url": "http://showtxt.cn/pont"
+            },
+            {
+                "name": "坚果云",
+                "url": "https://www.jianguoyun.com/"
             },
             {
                 "name": "OfficePLUS",
                 "url": "http://www.officeplus.cn/Template/Home.shtml"
-            },
-            {
-                "name": "极客导航",
-                "url": "http://www.gogeeks.cn/"
             },
             {
                 "name": "howsoftworks",
@@ -133,12 +241,11 @@
             {
                 "name": "CBI游戏天地",
                 "url": "http://www.cbigame.com/"
-            }
-        ]
-    },
-    {
-        "tit": "Steam",
-        "list": [
+            },
+            {
+                "name": "TapTap",
+                "url": "http://www.taptap.com/"
+            },
             {
                 "name": "Steam",
                 "url": "http://store.steampowered.com/"
@@ -169,20 +276,20 @@
         "tit": "发现",
         "list": [
             {
-                "name": "V2EX",
-                "url": "http://v2ex.com/"
+                "name": "limitPNG",
+                "url": "http://nullice.com/limitPNG/"
             },
             {
-                "name": "开源中国",
-                "url": "http://www.oschina.net/"
+                "name": "标你妹啊",
+                "url": "http://www.biaonimeia.com/"
             },
             {
-                "name": "博客园",
-                "url": "http://www.cnblogs.com/"
+                "nam": " Snipaste",
+                "url": "http://zh.snipaste.com/"
             },
             {
-                "name": "稀土掘金",
-                "url": "http://gold.xitu.io/"
+                "name": "MindStore",
+                "url": "http://mindstore.io/"
             },
             {
                 "name": "36kr-NEXT",
@@ -203,6 +310,18 @@
             {
                 "name": "小俊博客",
                 "url": "http://xiaojun911.com/"
+            },
+            {
+                "name": "浅藏的宝藏",
+                "url": "http://nullice.com/"
+            },
+            {
+                "name": "BleachBit",
+                "url": "https://www.bleachbit.org/"
+            },
+            {
+                "name": "浏览迷",
+                "url": "http://liulanmi.com/"
             }
         ]
     },
@@ -240,6 +359,42 @@
             {
                 "name": "晚晴幽草轩",
                 "url": "http://www.jeffjade.com/"
+            },
+            {
+                "name": "囧克斯",
+                "url": "http://jiongks.name/"
+            },
+            {
+                "name": "stormzhang",
+                "url": "http://stormzhang.com/"
+            },
+            {
+                "name": "zrong's blog",
+                "url": "http://zengrong.net/"
+            },
+            {
+                "name": "左萧龙",
+                "url": "http://www.zuoxiaolong.com/"
+            },
+            {
+                "name": "张鑫旭",
+                "url": "http://www.zhangxinxu.com/"
+            },
+            {
+                "name": "iMySQL",
+                "url": "http://imysql.cn/"
+            },
+            {
+                "name": "廖雪峰",
+                "url": "http://www.liaoxuefeng.com/"
+            },
+            {
+                "name": "战隼的学习探索",
+                "url": "http://www.read.org.cn/"
+            },
+            {
+                "name": "阮一峰",
+                "url": "http://www.ruanyifeng.com/blog/"
             }
         ]
     }

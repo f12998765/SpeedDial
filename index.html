@@ -13,16 +13,19 @@
     <script id="demo" type="text/html">
     {{# for(var i = 0,len = d.length; i <len;i++){ }}
 
-    <div class="block">
-        <div class="hh hi tit">{{ d[i].tit }}</div>
+        
+    <div class="row">
+        <div class="tit">{{ d[i].tit }}</div>
+        <div class="list">
         {{# for(var j = 0,len1 = d[i].list.length; j <len1;j++){ }}
-        <div class="hr hi">
-            <img src="http://api.byi.pw/favicon/?url={{ d[i].list[j].url }}" />
-            <a href={{ d[i].list[j].url }} target="_blank">
+        <div class="block">
+            <img src="https://api.byi.pw/favicon/?url={{ d[i].list[j].url }}" />
+            <a href={{ d[i].list[j].url }} >
                 {{ d[i].list[j].name }}
             </a> 
         </div>
         {{# } }}
+        </div>
     </div>
     
     {{# } }}
@@ -30,9 +33,6 @@
 
 
     <div class="con">
-        <div class="hi color tit">
-            网址索引
-        </div>
 
         <div id="view"></div>
 
