@@ -62,8 +62,7 @@ a:hover{
 
     #footer{
         border-top: 0.1em dashed #ccc;
-        padding-top: 1em;
-        text-align: center;
+        padding: 1em 0 0 3em;
         height: 3em;
     }
     
@@ -71,11 +70,12 @@ a:hover{
         width: 1.5em;
         height: 1.5em;
         margin-bottom: -0.15em;
+        padding-right: 0.1em;   
     }
     img.github{
         width: 1.2em;
         height: 1.2em;
-  
+        padding-right: 2.1em;     
     }
 }
 
