@@ -20,7 +20,7 @@
         {{# for(var j = 0,len1 = d[i].list.length; j <len1;j++){ }}
         <div class="block">
             <img src="https://api.byi.pw/favicon/?url={{ d[i].list[j].url }}" />
-            <a href={{ d[i].list[j].url }} >
+            <a href={{ d[i].list[j].url }} target="_blank">
                 {{ d[i].list[j].name }}
             </a> 
         </div>
@@ -34,8 +34,18 @@
 
     <div class="con">
 
+        <div class="head">
+            <img src="favicon.ico" alt="xizero.com">
+            <span>简单的网址索引</span>
+        </div>
         <div id="view"></div>
-
+        
+        <footer id="footer">
+           
+            <a href="https://coding.net/u/f12998765/p/SpeedDial/git"><img class="coding" src="coding.svg" alt=""></a>
+            <a href="https://github.com/f12998765/SpeedDial"><img class="github" src="github.svg" alt=""></a>
+            @XiZero.com Since July 2016
+        </footer>
     </div>
 </body>
 </html>
