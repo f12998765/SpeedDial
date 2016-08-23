@@ -1,192 +1,23 @@
 [
     {
-        "tit": "索引",
-        "list": [
-			{
-                "name": "Google",
-                "url": "https://www.google.com.hk"
-            },
-			{
-                "name": "百度",
-                "url": "https://www.baidu.com/"
-            },
-			{
-                "name": "垂直导航",
-                "url": "http://www.51index.cn/"
-            },
-			{
-                "name": "极客导航",
-                "url": "http://www.gogeeks.cn/"
-            }
-		
-		]
-    },
-    {
-        "tit": "奋斗",
-        "list": [
-            {
-                "name": "慕课网",
-                "url": "http://www.imooc.com/"
-            },
-            {
-                "name": "极客学院",
-                "url": "http://www.jikexueyuan.com/"
-            },
-            {
-                "name": "实验楼",
-                "url": "https://www.shiyanlou.com/"
-            },
-			{
-				"name":"W3Cshcool",
-				"url":"http://www.w3cschool.cn/"
-			},
-            {
-                "name": "菜鸟教程",
-                "url": "http://www.runoob.com/"
-            },
-            {
-                "name": "牛客网",
-                "url": "http://www.nowcoder.com/"
-            },
-            {
-                "name": "Codewars",
-                "url": "https://www.codewars.com"
-            },
-            {
-                "name": "LeetCode",
-                "url": "https://leetcode.com/"
-            },
-            {
-                "name": "字节技术",
-                "url": "http://www.4byte.cn/"
-            }
-        ]
-    },
-	{
-        "tit": "资讯",
+        "tit": "论坛",
         "list": [
             {
                 "name": "V2EX",
                 "url": "https://v2ex.com/"
-            },
-			{
-                "name": "cnBeta",
-                "url": "http://www.cnbeta.com/"
-            },
+            }
+		]
+    },
+    {
+        "tit": "资讯",
+        "list": [
             {
-                "name": "InfoQ",
-                "url": "http://www.infoq.com/cn/"
-            },
-            {
-                "name": "码农网",
-                "url": "http://www.codeceo.com/"
-            },
-            {
-                "name": "推酷",
-                "url": "http://www.tuicool.com/"
+                "name": "一览",
+                "url": "http://www.yilan.io/"
             },
             {
                 "name": "掘金",
                 "url": "http://gold.xitu.io/"
-            },
-            {
-                "name": "图灵社区",
-                "url": "http://www.ituring.com.cn/"
-            },
-            {
-                "name": "开源中国",
-                "url": "http://www.oschina.net/"
-            },
-            {
-                "name": "博客园",
-                "url": "http://www.cnblogs.com/"
-            },
-            {
-                "name": "SegmentFault",
-                "url": "https://segmentfault.com/"
-            }
-        ]
-    },
-    {
-        "tit": "项目",
-        "list": [
-            {
-                "name": "Coding",
-                "url": "https://coding.net"
-            },
-            {
-                "name": "Github",
-                "url": "https://github.com/"
-            },
-            {
-                "name": "GitBook",
-                "url": "https://www.gitbook.com"
-            },
-            {
-                "name": "腾讯云",
-                "url": "https://www.qcloud.com/"
-            },
-            {
-                "name": "七牛云",
-                "url": "http://www.qiniu.com/"
-            }
-        ]
-    },
-    {
-        "tit": "前端",
-        "list": [
-            {
-                "name": "laytpl",
-                "url": "http://laytpl.layui.com/"
-            },
-            {
-                "name": "Div.IO",
-                "url": "http://div.io/#/welcome"
-            },
-            {
-                "name": "前端资源库",
-                "url": "https://www.awesomes.cn/"
-            },
-            {
-                "name": "火狐MDN",
-                "url": "https://developer.mozilla.org/zh-CN/"
-            },
-			{
-				"name":"前端导航网",
-				"url":"http://jsdig.com/"
-			}
-        ]
-    },
-    {
-        "tit": "工具",
-        "list": [
-            {
-                "name": "谷歌翻译",
-                "url": "https://translate.google.com.hk/"
-            },
-			{
-                "name": "百度翻译",
-                "url": "http://fanyi.baidu.com/"
-            },
-			{
-                "name": "石墨文档",
-                "url": "https://shimo.im/desktop"
-            },
-            {
-                "name": "云笔记",
-                "url": "http://showtxt.cn/pont"
-            },
-            {
-                "name": "坚果云",
-                "url": "https://www.jianguoyun.com/"
-            },
-            {
-                "name": "OfficePLUS",
-                "url": "http://www.officeplus.cn/Template/Home.shtml"
-            },
-            {
-                "name": "howsoftworks",
-                "url": "http://www.howsoftworks.net/"
             }
         ]
     },
@@ -204,38 +35,88 @@
             {
                 "name": "BiliBili",
                 "url": "http://www.bilibili.com/"
-            },
-            {
-                "name": "书格",
-                "url": "https://shuge.org/"
             }
         ]
     },
-    {
-        "tit": "游戏",
+	{
+        "tit": "学习",
         "list": [
             {
-                "name": "触乐",
-                "url": "http://www.chuapp.com/"
+                "name": "慕课网",
+                "url": "http://www.imooc.com/"
+            },
+			{
+                "name": "极客学院",
+                "url": "http://www.jikexueyuan.com/"
             },
             {
-                "name": "TapTap",
-                "url": "http://www.taptap.com/"
+                "name": "牛客网",
+                "url": "http://www.nowcoder.com/"
             },
             {
-                "name": "MC中文论坛",
-                "url": "http://www.mcbbs.net/"
+                "name": "Codewars",
+                "url": "https://www.codewars.com/"
             },
-            {
-                "name": "游民星空",
-                "url": "http://www.gamersky.com/"
-            },
-            {
-                "name": "CBI游戏天地",
-                "url": "http://www.cbigame.com/"
+			{
+                "name": "LeetCode",
+                "url": "https://leetcode.com/"
             }
-			]
-	},	
+		]
+	},    
+    {
+        "tit": "新鲜",
+        "list": [
+            {
+                "name": "InfoQ",
+                "url": "http://www.infoq.com/cn/"
+            },
+			{
+                "name": "博客园",
+                "url": "http://www.cnblogs.com/"
+            },
+			{
+                "name": "图灵社区",
+                "url": "http://www.ituring.com.cn/"
+            },
+            {
+                "name": "segmentfault",
+                "url": "https://segmentfault.com/"
+            },
+            {
+                "name": "ImportNew",
+                "url": "http://www.importnew.com/"
+            }
+        ]
+    },	
+	{
+        "tit": "项目",
+        "list": [
+            {
+                "name": "Coding",
+                "url": "https://coding.net"
+            },
+            {
+                "name": "Github",
+                "url": "https://github.com/"
+            },
+            {
+                "name": "腾讯云",
+                "url": "https://www.qcloud.com/"
+            },
+            {
+                "name": "七牛云",
+                "url": "http://www.qiniu.com/"
+            },
+            {
+                "name": "Linux.CN",
+                "url": "https://linux.cn/"
+            },
+            {
+                "name": "实验楼",
+                "url": "https://www.shiyanlou.com/"
+            }
+        ]
+    },
    {
         "tit": "Steam",
         "list": [
@@ -248,20 +129,16 @@
                 "url": "http://steamcn.com/"
             },
             {
-                "name": "杉果游戏",
-                "url": "http://www.sonkwo.com/"
-            },
-            {
-                "name": "HB 慈善包",
+                "name": "Humble Bundle",
                 "url": "https://www.humblebundle.com/"
-            },
-            {
-                "name": "FAILMID",
-                "url": "http://failmid.com/"
             },
 			{
                 "name": "奶牛关游戏",
                 "url": "https://cowlevel.net/"
+            },
+			{
+                "name": "MC中文论坛",
+                "url": "http://www.mcbbs.net/"
             }
         ]
     },
@@ -284,118 +161,35 @@
                 "name": "异次元软件",
                 "url": "http://www.iplaysoft.com/"
             },
-			{
-                "name": "浏览迷",
-                "url": "http://liulanmi.com/"
-            },
-			{
-                "name": "最美应用",
-                "url": "http://zuimeia.com/"
-            }
-
-
+            {
+                "name": "开源资讯",
+                "url": "http://www.oschina.net/news/list?show=project"
+            }	
         ]
     },
 	{
 		"tit":"软件",
 		"list":[
 			{
-                "name": "浅藏的宝藏",
-                "url": "http://nullice.com/"
+                "name": "石墨文档",
+                "url": "https://shimo.im"
             },
             {
-                "name": "小俊博客",
-                "url": "http://xiaojun911.com/"
+                "name": "HowSoftWorks",
+                "url": "http://www.howsoftworks.net/"
             },
 			{
-                "nam": " Snipaste",
-                "url": "http://zh.snipaste.com/"
+                "name": "垂直索引",
+                "url": "http://www.51index.cn/"
+            },
+			{
+                "name": "前端导航网",
+                "url": "http://jsdig.com/"
             },
             {
-                "name": "标你妹啊",
-                "url": "http://www.biaonimeia.com/"
-            },
-			{
-                "name": "BleachBit",
-                "url": "https://www.bleachbit.org/"
-            },
-			{
-                "name": "limitPNG",
-                "url": "http://nullice.com/limitPNG/"
+                "name": "Mozilla开发者网络",
+                "url": "https://developer.mozilla.org/zh-CN/"
             }
 		]
-	},
-    {
-        "tit": "博客",
-        "list": [
-			{
-                "name": "阮一峰",
-                "url": "http://www.ruanyifeng.com/blog/"
-            },
-			{
-                "name": "廖雪峰",
-                "url": "http://www.liaoxuefeng.com/"
-            },
-			{
-                "name": "左萧龙",
-                "url": "http://www.zuoxiaolong.com/"
-            },
-            {
-                "name": "张鑫旭",
-                "url": "http://www.zhangxinxu.com/"
-            },
-            {
-                "name": "囧克斯",
-                "url": "http://jiongks.name/"
-            },
-            {
-                "name": "zrong's blog",
-                "url": "http://zengrong.net/"
-            },
-			{
-                "name": "晚晴幽草轩",
-                "url": "http://www.jeffjade.com/"
-            },
-			{
-                "name": "战隼的学习探索",
-                "url": "http://www.read.org.cn/"
-            },
-			{
-                "name": "iMySQL",
-                "url": "http://imysql.cn/"
-            },
-            {
-                "name": "麦田技术博客",
-                "url": "http://blog.itmyhome.com/"
-            },
-			{
-                "name": "YouMeek",
-                "url": "http://www.youmeek.com/"
-            },
-            {
-                "name": "杰夫设计",
-                "url": "http://www.imjeff.cn/"
-            },
-            {
-                "name": "前端养成记",
-                "url": "http://loyalsoldier.me/"
-            },
-            {
-                "name": "SharEDITor",
-                "url": "http://www.shareditor.com/"
-            },
-            {
-                "name": "Hollis",
-                "url": "http://www.hollischuang.com/"
-            },
-            {
-                "name": "G-VAR",
-                "url": "http://www.g-var.com/"
-            },
-            {
-                "name": "stormzhang",
-                "url": "http://stormzhang.com/"
-            }
-        ]
-    }
+	}
 ]
