@@ -13,21 +13,21 @@
     <script id="demo" type="text/html">
     {{# for(var i = 0,len = d.length; i <len;i++){ }}
 
-        
+
     <div class="row">
         <div class="tit">{{ d[i].tit }}</div>
         <div class="list">
         {{# for(var j = 0,len1 = d[i].list.length; j <len1;j++){ }}
         <div class="block">
             <img src="https://api.byi.pw/favicon/?url={{ d[i].list[j].url }}" />
-            <a href={{ d[i].list[j].url }} target="_blank">
+            <a href={{ d[i].list[j].url }} target="_blank" >
                 {{ d[i].list[j].name }}
-            </a> 
+            </a>
         </div>
         {{# } }}
         </div>
     </div>
-    
+
     {{# } }}
     </script>
 
@@ -39,9 +39,9 @@
             <span>简单的网址索引</span>
         </div>
         <div id="view"></div>
-        
+
         <footer id="footer">
-           
+
             <a href="https://coding.net/u/f12998765/p/SpeedDial/git"><img class="coding" src="coding.svg" alt=""></a>
             <a href="https://github.com/f12998765/SpeedDial"><img class="github" src="github.svg" alt=""></a>
             @XiZero.com Since July 2016

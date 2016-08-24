@@ -45,9 +45,8 @@ a:hover{
     .block{
         height: 3em;
         line-height: 3em;
-        padding-right: 1.2em;
         display: inline-block;
-
+        min-width: 9em;
     }
 
     .tit{
@@ -57,7 +56,7 @@ a:hover{
         width: 3em;
         padding: 0 3em;
         text-align: left;
-        
+
     }
 
     #footer{
@@ -65,17 +64,17 @@ a:hover{
         padding: 1em 0 0 3em;
         height: 3em;
     }
-    
+
     img.coding{
         width: 1.5em;
         height: 1.5em;
         margin-bottom: -0.15em;
-        padding-right: 0.1em;   
+        padding-right: 0.1em;
     }
     img.github{
         width: 1.2em;
         height: 1.2em;
-        padding-right: 2.1em;     
+        padding-right: 2.1em;
     }
 }
 
@@ -94,26 +93,25 @@ a:hover{
     .block{
         height: 3em;
         line-height: 3em;
-        padding-right: 1.5em;
         display: inline-block;
-        
+        min-width: 48%;
     }
 
     .tit{
         padding: 1.5em 0;
         text-align: left;
         width: 100%;
-        border-bottom: 0.1em dashed #ccc;   
-    } 
+        border-bottom: 0.1em dashed #ccc;
+    }
 
     #footer{
-        border-top:1px dashed #888; 
+        border-top:1px dashed #888;
         margin-top: 1em;
         text-align: left;
         height: 3em;
         line-height: 3em;
     }
-    
+
     img.coding{
         width: 1.5em;
         height: 1.5em;
@@ -122,7 +120,6 @@ a:hover{
     img.github{
         width: 1.2em;
         height: 1.2em;
-  
+
     }
 }
-

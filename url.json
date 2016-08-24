@@ -62,7 +62,7 @@
                 "url": "https://leetcode.com/"
             }
 		]
-	},    
+	},
     {
         "tit": "新鲜",
         "list": [
@@ -87,8 +87,83 @@
                 "url": "http://www.importnew.com/"
             }
         ]
-    },	
+    },
+    {
+        "tit": "发现",
+        "list": [
+			{
+                "name": "36kr NEXT",
+                "url": "http://next.36kr.com/posts"
+            },
+            {
+                "name": "MindStore",
+                "url": "http://mindstore.io/"
+            },
+			{
+                "name": "小众软件",
+                "url": "http://www.appinn.com/"
+            },
+            {
+                "name": "异次元软件",
+                "url": "http://www.iplaysoft.com/"
+            },
+            {
+                "name": "开源资讯",
+                "url": "http://www.oschina.net/news/list?show=project"
+            }
+        ]
+    },
+    {
+         "tit": "Steam",
+         "list": [
+             {
+                 "name": "Steam",
+                 "url": "http://store.steampowered.com/"
+             },
+             {
+                 "name": "SteamCN",
+                 "url": "http://steamcn.com/"
+             },
+             {
+                 "name": "Humble Bundle",
+                 "url": "https://www.humblebundle.com/"
+             },
+       {
+                 "name": "奶牛关游戏",
+                 "url": "https://cowlevel.net/"
+             },
+       {
+                 "name": "MC中文论坛",
+                 "url": "http://www.mcbbs.net/"
+             }
+         ]
+     },
 	{
+		"tit":"软件",
+		"list":[
+			{
+                "name": "石墨文档",
+                "url": "https://shimo.im"
+            },
+            {
+                "name": "HowSoftWorks",
+                "url": "http://www.howsoftworks.net/"
+            },
+			{
+                "name": "垂直索引",
+                "url": "http://www.51index.cn/"
+            },
+			{
+                "name": "前端导航网",
+                "url": "http://jsdig.com/"
+            },
+            {
+                "name": "Mozilla开发者网络",
+                "url": "https://developer.mozilla.org/zh-CN/"
+            }
+		]
+	},
+  {
         "tit": "项目",
         "list": [
             {
@@ -116,80 +191,5 @@
                 "url": "https://www.shiyanlou.com/"
             }
         ]
-    },
-   {
-        "tit": "Steam",
-        "list": [
-            {
-                "name": "Steam",
-                "url": "http://store.steampowered.com/"
-            },
-            {
-                "name": "SteamCN",
-                "url": "http://steamcn.com/"
-            },
-            {
-                "name": "Humble Bundle",
-                "url": "https://www.humblebundle.com/"
-            },
-			{
-                "name": "奶牛关游戏",
-                "url": "https://cowlevel.net/"
-            },
-			{
-                "name": "MC中文论坛",
-                "url": "http://www.mcbbs.net/"
-            }
-        ]
-    },
-    {
-        "tit": "发现",
-        "list": [
-			{
-                "name": "36kr NEXT",
-                "url": "http://next.36kr.com/posts"
-            },
-            {
-                "name": "MindStore",
-                "url": "http://mindstore.io/"
-            },
-			{
-                "name": "小众软件",
-                "url": "http://www.appinn.com/"
-            },
-            {
-                "name": "异次元软件",
-                "url": "http://www.iplaysoft.com/"
-            },
-            {
-                "name": "开源资讯",
-                "url": "http://www.oschina.net/news/list?show=project"
-            }	
-        ]
-    },
-	{
-		"tit":"软件",
-		"list":[
-			{
-                "name": "石墨文档",
-                "url": "https://shimo.im"
-            },
-            {
-                "name": "HowSoftWorks",
-                "url": "http://www.howsoftworks.net/"
-            },
-			{
-                "name": "垂直索引",
-                "url": "http://www.51index.cn/"
-            },
-			{
-                "name": "前端导航网",
-                "url": "http://jsdig.com/"
-            },
-            {
-                "name": "Mozilla开发者网络",
-                "url": "https://developer.mozilla.org/zh-CN/"
-            }
-		]
-	}
+    }
 ]
