@@ -13,7 +13,7 @@
         "list": [
             {
                 "name": "一览",
-                "url": "http://www.yilan.io/"
+                "url": "http://www.yilan.io/home/"
             },
             {
                 "name": "掘金",
@@ -143,7 +143,7 @@
 		"list":[
 			{
                 "name": "石墨文档",
-                "url": "https://shimo.im"
+                "url": "https://shimo.im/desktop"
             },
             {
                 "name": "HowSoftWorks",
