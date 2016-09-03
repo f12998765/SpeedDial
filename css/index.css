@@ -1,13 +1,13 @@
 body{
     color: #666;
-    font-size: 16px;
+    font-size: 1em;
 }
 a{
     text-decoration: none;
     color: #888;
 }
 a:hover{
-    color:#333;
+    color:#000;
     text-decoration: underline;
 }
 .block img{
@@ -43,8 +43,8 @@ a:hover{
         flex-wrap:wrap;
     }
     .block{
-        height: 3em;
-        line-height: 3em;
+        height: 3.2em;
+        line-height: 3.2em;
         display: inline-block;
         min-width: 9em;
     }
@@ -62,19 +62,13 @@ a:hover{
     #footer{
         border-top: 0.1em dashed #ccc;
         padding: 1em 0 0 3em;
-        height: 3em;
+        height: 4em;
     }
 
-    img.coding{
-        width: 1.5em;
-        height: 1.5em;
-        margin-bottom: -0.15em;
-        padding-right: 0.1em;
-    }
     img.github{
-        width: 1.2em;
-        height: 1.2em;
-        padding-right: 2.1em;
+        width: 1.3em;
+        height: 1.3em;
+        padding-right: 4em;
     }
 }
 
@@ -112,11 +106,6 @@ a:hover{
         line-height: 3em;
     }
 
-    img.coding{
-        width: 1.5em;
-        height: 1.5em;
-        margin-bottom: -0.15em;
-    }
     img.github{
         width: 1.2em;
         height: 1.2em;
