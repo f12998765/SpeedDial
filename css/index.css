@@ -1,13 +1,14 @@
 body{
     color: #666;
     font-size: 1em;
+    font-family: Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', Arial, sans-serif;
 }
 a{
     text-decoration: none;
-    color: #888;
+    color: #666;
 }
 a:hover{
-    color:#000;
+    color:#222;
     text-decoration: underline;
 }
 .block img{

@@ -20,12 +20,33 @@
         "url": "http://gold.xitu.io/"
       },
       {
-        "name": "码农网",
-        "url": "http://www.codeceo.com/"
-      },
-      {
         "name": "ImportNew",
         "url": "http://www.importnew.com/"
+      },
+      {
+        "name": "码农网",
+        "url": "http://www.codeceo.com/"
+      }
+    ]
+  },
+  {
+    "tit": "生活",
+    "list": [
+      {
+        "name": "豆瓣FM",
+        "url": "https://douban.fm/"
+      },
+      {
+        "name": "哔哩哔哩",
+        "url": "http://www.bilibili.com/"
+      },
+      {
+        "name": "Steam",
+        "url": "http://store.steampowered.com/"
+      },
+      {
+        "name": "Humble Bundle",
+        "url": "https://www.humblebundle.com/"
       }
     ]
   },
@@ -62,12 +83,12 @@
         "url": "http://www.infoq.com/cn/"
       },
       {
-        "name": "博客园",
-        "url": "http://www.cnblogs.com/"
+        "name": "SegmentFault",
+        "url": "https://segmentfault.com/"
       },
       {
-        "name": "segmentfault",
-        "url": "https://segmentfault.com/"
+        "name": "博客园",
+        "url": "http://www.cnblogs.com/"
       },
       {
         "name": "图灵社区",
@@ -105,36 +126,11 @@
     ]
   },
   {
-    "tit": "生活",
-    "list": [
-      {
-        "name": "Steam",
-        "url": "http://store.steampowered.com/"
-      },
-      {
-        "name": "豆瓣FM",
-        "url": "https://douban.fm/"
-      },
-      {
-        "name": "网易云音乐",
-        "url": "http://music.163.com/"
-      },
-      {
-        "name": "BiliBili",
-        "url": "http://www.bilibili.com/"
-      },
-      {
-        "name": "Humble Bundle",
-        "url": "https://www.humblebundle.com/"
-      }
-    ]
-  },
-  {
     "tit": "项目",
     "list": [
       {
         "name": "Coding",
-        "url": "https://coding.net"
+        "url": "https://coding.net/user"
       },
       {
         "name": "Github",
