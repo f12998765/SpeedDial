@@ -33,23 +33,21 @@ Favicon API：[获取网站Favicon | BYI_API](https://api.byi.pw/favicon/)
 ##撸了一个把导出书签生成本项目使用的json的js小脚本
 
 ###注意
-- 生成的json会丢失分类名称
-- 仅测试了chrome 浏览器
-- 书签只能有两级目录，即书签栏里只能再创建一级文件，如下图
 
-![img01](http://ob4kd8p3g.bkt.clouddn.com/img1.png)
+- 仅测试了chrome 浏览器
+- 支持多级目录，但是每个目录都会独立成一个分类
 
 ###脚本地址
-- [Github Gist](https://gist.github.com/f12998765/e5848942560880c3db29dc922e3374a5)
+- [Github Gist](https://gist.github.com/f12998765/77c509ed409fdab288ddd0bf9ccdeb47)
 - [ShowTXT.cn](http://showtxt.cn/s/d4e421url)  -- Gist 国内打不开可以用这个
 
 ###使用帮助
 - 首先，将书签导出到本地
-- 在chrome 中打开导出书签
-- 按F12打开开发者工具
-- 把js脚本粘贴到在console中运行
-- 复制新打开的窗口中的内容
-- 在json在线编辑器中打开修改，并添加分类名称 ([某个编辑器](http://shitu.json.la/))
-- 复制内容，保持到本地url.json
+- 在chrome 中打开导出书签，按F12打开开发者工具
+- 把js脚本粘贴到在console中运行，复制新打开的窗口中的内容
+- 在json在线编辑器中打开修改
+- 推荐一个编辑器 [Json Editor Online](http://www.jsoneditoronline.org/)
+- 点击右上角 `Save`可以直接保存到本地，或者复制内容，保持到本地
+- json的文件名应为 `url.json` ，更换其他名字可以在 `index.js` 中修改
 
-![img02](http://ob4kd8p3g.bkt.clouddn.com/img2.png)
+![Json Editor Online](http://ob4kd8p3g.bkt.clouddn.com/jsone.png)
