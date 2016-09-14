@@ -17,7 +17,7 @@ a:hover{
     margin-bottom: -0.2em;
 }
 .con{
-    padding-top: 0.5em;
+    padding-top: 0.8em;
     width: 90%;
     margin: 0 auto;
 }
@@ -47,7 +47,7 @@ a:hover{
         height: 3.2em;
         line-height: 3.2em;
         display: inline-block;
-        min-width: 9em;
+        min-width: 10em;
     }
 
     .tit{
