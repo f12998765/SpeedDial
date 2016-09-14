@@ -45,9 +45,4 @@ Favicon API：[获取网站Favicon | BYI_API](https://api.byi.pw/favicon/)
 - 首先，将书签导出到本地
 - 在chrome 中打开导出书签，按F12打开开发者工具
 - 把js脚本粘贴到在console中运行，复制新打开的窗口中的内容
-- 在json在线编辑器中打开修改
-- 推荐一个编辑器 [Json Editor Online](http://www.jsoneditoronline.org/)
-- 点击右上角 `Save`可以直接保存到本地，或者复制内容，保持到本地
-- json的文件名应为 `url.json` ，更换其他名字可以在 `index.js` 中修改
-
-![Json Editor Online](http://ob4kd8p3g.bkt.clouddn.com/jsone.png)
+- 选择一个json在线编辑器，打开修改
