@@ -1,6 +1,6 @@
 [
     {
-        "tit": "News",
+        "tit": "常用",
         "list": [
             {
                 "name": "V2EX",
@@ -9,6 +9,10 @@
             {
                 "name": "SteamCN",
                 "url": "http://steamcn.com/"
+            },
+            {
+                "name": "Twitter",
+                "url": "https://twitter.com/"
             }
         ]
     },
@@ -50,33 +54,11 @@
             }
         ]
     },
-
-    {
-        "tit": "生活",
-        "list": [
-            {
-                "name": "豆瓣FM",
-                "url": "https://douban.fm/"
-            },
-            {
-                "name": "哔哩哔哩",
-                "url": "http://www.bilibili.com/"
-            },
-            {
-                "name": "Steam",
-                "url": "http://store.steampowered.com/"
-            },
-            {
-                "name": "Humble Bundle",
-                "url": "https://www.humblebundle.com/"
-            }
-        ]
-    },
     {
         "tit": "发现",
         "list": [
             {
-                "name": "36kr NEXT",
+                "name": "NEXT",
                 "url": "http://next.36kr.com/posts"
             },
             {
@@ -98,7 +80,32 @@
         ]
     },
     {
-        "tit": "What",
+        "tit": "生活",
+        "list": [
+            {
+                "name": "豆瓣FM",
+                "url": "https://douban.fm/"
+            },
+            {
+                "name": "bilibili",
+                "url": "http://www.bilibili.com/"
+            },
+            {
+                "name": "Steam",
+                "url": "http://store.steampowered.com/"
+            },
+            {
+                "name": "SteamGifts",
+                "url": "https://www.steamgifts.com/"
+            },
+            {
+                "name": "HumbleBundle",
+                "url": "https://www.humblebundle.com/"
+            }
+        ]
+    },
+    {
+        "tit": "刷题",
         "list": [
             {
                 "name": "牛客网",
