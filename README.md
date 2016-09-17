@@ -28,7 +28,7 @@ Favicon API：[获取网站Favicon | BYI_API](https://api.byi.pw/favicon/)
 
 ### 可能在本地调试的时候出现 json 文件不能加载，可以尝试
 
-- ** 推荐：**在chrome中安装 [Web Server for Chrome](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb)
+- **推 荐 -->**  在chrome中安装 [Web Server for Chrome](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb)
 - 在 `js/index.js` 中修改 `$.getJSON()` 参数为 `url.json` 文件远程地址
 
 ## js 脚本 - Chrome导出书签生成 url.json
