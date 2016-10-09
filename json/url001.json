@@ -13,6 +13,19 @@
         ]
     },
     {
+        "tit": "生活",
+        "list": [
+            {
+                "name": "豆瓣FM",
+                "url": "https://douban.fm/"
+            },
+            {
+                "name": "bilibili",
+                "url": "http://www.bilibili.com/"
+            }
+        ]
+    },
+    {
         "tit": "News",
         "list": [
             {
@@ -72,19 +85,6 @@
             {
                 "name": "异步社区",
                 "url": "http://www.epubit.com.cn/"
-            }
-        ]
-    },
-    {
-        "tit": "生活",
-        "list": [
-            {
-                "name": "豆瓣FM",
-                "url": "https://douban.fm/"
-            },
-            {
-                "name": "bilibili",
-                "url": "http://www.bilibili.com/"
             }
         ]
     },
