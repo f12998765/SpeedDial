@@ -1,6 +1,6 @@
 $(function(){
 
-    $.getJSON("json/url.json",function(data){
+    $.getJSON("json/url001.json",function(data){
         var gettpl = $("#demo").html();
         laytpl(gettpl).render(data, function(html){$('#view').html(html);})
     })
