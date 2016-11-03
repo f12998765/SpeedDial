@@ -7,43 +7,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-    <script src="js/jquery-3.1.0.min.js"></script>
-    <script src="js/laytpl.js"></script>
-    <script src="js/index.js"></script>
-    <script id="demo" type="text/html">
-    {{# for(var i = 0,len = d.length; i <len;i++){ }}
-
-
-    <div class="row">
-        <div class="tit">{{ d[i].tit }}</div>
-        <div class="list">
-        {{# for(var j = 0,len1 = d[i].list.length; j <len1;j++){ }}
-        <div class="block">
-            <img src="https://api.byi.pw/favicon/?url={{ d[i].list[j].url }}" />
-            <a href={{ d[i].list[j].url }} target="_blank" rel="noopener" >
-                {{ d[i].list[j].name }}
-            </a>
-        </div>
-        {{# } }}
-        </div>
-    </div>
-
-    {{# } }}
-    </script>
-
+    <script src="https://lib.baomitu.com/vue/2.0.3/vue.js"></script>
 
     <div class="con">
 
         <div class="head">
-            <img src="favicon.ico" alt="xizero.com">
-            <span>简单的网址索引</span>
+            <div id="icon">简单的网址索引</div>
         </div>
-        <div id="view"></div>
-
+        <div id="view">
+            <div class="row" v-for="webs in xjson">
+                <div class="tit">{{webs.tit}}</div>
+                <div class="list">
+                    <div class="block" v-for="web in webs.list">
+                        <img :src="'https://api.byi.pw/favicon/?url='+web.url" />
+                        <a :href="web.url" target="_blank" rel="noopener">{{web.name}}</a>
+                    </div>
+                </div>
+            </div>
+        </div>
         <footer id="footer">
-            <a href="https://github.com/f12998765/SpeedDial"><img class="github" src="img/github.svg" alt=""></a>
             @XiZero.com Since July 2016
         </footer>
     </div>
+    <a href="https://github.com/f12998765/SpeedDial" target="_blank">
+    <img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png">
+    </a>
+    <script src="js/index.js"></script>
 </body>
 </html>
