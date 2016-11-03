@@ -17,35 +17,39 @@ a:hover{
     margin-bottom: -0.2em;
 }
 .con{
-    padding-top: 0.8em;
-    width: 90%;
+    width: 86%;
     margin: 0 auto;
 }
 
-@media all and (min-width: 1366px) {
+@media all and (min-width: 1201px) {
     .head{
-        width: 100%;
-        height: 2.5em;
-        line-height: 2.5em;
-        display: flex;
-        padding-bottom: 0.5em;
+        width: 20%;
+        height: 3em;
+        margin: 2em auto;
     }
-    .head img{
-        width: 2.5em;
-        height: 2.5em;
-        padding:0 3.8em 0 2.7em;
+    #icon{
+        display: inline-block;
+        width: 8em;
+        padding-left: 3em;
+        height: 3em;
+        line-height: 3em;
+        background-image:url('../favicon.ico');
+        background-repeat: no-repeat;
+        background-size: 3em 3em;
+        text-align: right;
     }
+
     .row{
         display: flex;
-        border-top: 0.1em dashed #ccc;
+        border-bottom: 0.1em dashed #ccc;
     }
 
     .list{
         flex-wrap:wrap;
     }
     .block{
-        height: 3.2em;
-        line-height: 3.2em;
+        height: 3.5em;
+        line-height: 3.5em;
         display: inline-block;
         min-width: 10em;
     }
@@ -61,19 +65,13 @@ a:hover{
     }
 
     #footer{
-        border-top: 0.1em dashed #ccc;
-        padding: 1em 0 0 3em;
-        height: 4em;
-    }
-
-    img.github{
-        width: 1.3em;
-        height: 1.3em;
-        padding-right: 4em;
+        margin: 8em auto 0 auto;
+        width: 14em;
+        font-size:10px; 
     }
 }
 
-@media all and (max-width: 1365px) {
+@media all and (max-width: 1200px) {
     .head{
         width: 100%;
         height: 2.5em;
