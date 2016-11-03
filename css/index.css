@@ -22,6 +22,12 @@ a:hover{
 }
 
 @media all and (min-width: 1201px) {
+    #hello{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    }
     .head{
         width: 20%;
         height: 3em;
@@ -41,7 +47,7 @@ a:hover{
 
     .row{
         display: flex;
-        border-bottom: 0.1em dashed #ccc;
+        /*border-bottom: 0.1em dashed #ccc;*/
     }
 
     .list{
@@ -72,6 +78,9 @@ a:hover{
 }
 
 @media all and (max-width: 1200px) {
+    #hello{
+        display: none;
+    }
     .head{
         width: 100%;
         height: 2.5em;
