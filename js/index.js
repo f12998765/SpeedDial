@@ -7,7 +7,7 @@ var vm = new Vue({
     },
     mounted: function () {
         var self = this;
-        fetch(this.apiTest)
+        fetch(this.apiUrl)
         .then(function(response) {
              return response.json();
         }).then(function(json) {
