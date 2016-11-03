@@ -2,7 +2,7 @@ var vm = new Vue({
     el: '#view',
     data: {
         xjson:[],
-        apiUrl: '../url.json'
+        apiUrl: '../json/url.json'
     },
     mounted: function () {
         var self = this;
