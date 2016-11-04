@@ -4,20 +4,22 @@
 
 Favicon API：[获取网站Favicon | BYI_API](https://api.byi.pw/favicon/)
 
-技术 ：[laytpl.js- 精妙的JavaScript模板引擎](http://laytpl.layui.com/)
+实现 ：[vue.js](https://vuejs.org/)
+
+~~技术 ：[laytpl.js- 精妙的JavaScript模板引擎](http://laytpl.layui.com/)~~
 
 ## 快速开始
 
 - 首先 Fork 这个项目到你的仓库
 - 关于自定义域名
   - 不需要自定义域名，请删除 `CNAME` 文件
-  - 需要自定义域名，请修改 `CNAME`，并修改自定义域名的解析
+  - 需要自定义域名，请修改 `CNAME` 文件，并修改域名解析
 - 在项目 `setting` 可以查看该项目的网址
 - 之后根据自己的需求修改
 
 ## 修改帮助
 
-- 项目的Html模板由 [laytpl.js](http://laytpl.layui.com/) 生成
+~~- 项目的Html模板由 [laytpl.js](http://laytpl.layui.com/) 生成~~
 - 项目的网站数据放在 `json/url.json` 中，结构如下
   - tit : 网站分类
   - list ： 网站列表
