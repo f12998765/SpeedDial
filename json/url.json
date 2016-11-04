@@ -1,18 +1,18 @@
 [
     {
-        "tit": "常用",
+        "tit": "生活",
         "list": [
             {
-                "name": "V2EX",
-                "url": "https://v2ex.com/"
+                "name": "豆瓣FM",
+                "url": "https://douban.fm/"
             },
             {
-                "name": "SteamCN",
-                "url": "http://steamcn.com/"
+                "name": "网易云音乐",
+                "url": "http://music.163.com/"
             },
             {
-                "name": "Twitter",
-                "url": "https://twitter.com/"
+                "name": "bilibili",
+                "url": "http://www.bilibili.com/"
             }
         ]
     },
@@ -20,8 +20,16 @@
         "tit": "News",
         "list": [
             {
-                "name": "InfoQ",
-                "url": "http://www.infoq.com/cn/"
+                "name": "V2EX",
+                "url": "https://v2ex.com/"
+            },
+            {
+                "name": "Twitter",
+                "url": "https://twitter.com/"
+            },
+            {
+                "name": "reddit",
+                "url": "https://www.reddit.com/"
             },
             {
                 "name": "Hacker News",
@@ -34,78 +42,32 @@
         ]
     },
     {
-        "tit": "阅读",
+        "tit": "工具",
         "list": [
             {
-                "name": "掘金",
-                "url": "http://gold.xitu.io/"
+                "name": "花蜜",
+                "url": "https://flowerpassword.com/app/web"
             },
             {
-                "name": "ImportNew",
-                "url": "http://www.importnew.com/"
+                "name": "MoeTu",
+                "url": "https://moetu.org/"
             },
             {
-                "name": "码农网",
-                "url": "http://www.codeceo.com/"
+                "name": "jsfiddle",
+                "url": "https://jsfiddle.net/"
             },
             {
-                "name": "ifeve.com",
-                "url": "http://ifeve.com/"
+                "name": "石墨文档",
+                "url": "https://shimo.im/"
+            },
+            {
+                "name": "howsoftworks",
+                "url": "http://www.howsoftworks.net//"
             }
         ]
     },
     {
-        "tit": "发现",
-        "list": [
-            {
-                "name": "NEXT",
-                "url": "http://next.36kr.com/posts"
-            },
-            {
-                "name": "开源资讯",
-                "url": "http://www.oschina.net/news/list?show=project"
-            },
-            {
-                "name": "博客园",
-                "url": "http://www.cnblogs.com/"
-            },
-            {
-                "name": "图灵社区",
-                "url": "http://www.ituring.com.cn/"
-            },
-            {
-                "name": "异步社区",
-                "url": "http://www.epubit.com.cn/"
-            }
-        ]
-    },
-    {
-        "tit": "生活",
-        "list": [
-            {
-                "name": "豆瓣FM",
-                "url": "https://douban.fm/"
-            },
-            {
-                "name": "bilibili",
-                "url": "http://www.bilibili.com/"
-            },
-            {
-                "name": "Steam",
-                "url": "http://store.steampowered.com/"
-            },
-            {
-                "name": "SteamGifts",
-                "url": "https://www.steamgifts.com/"
-            },
-            {
-                "name": "HumbleBundle",
-                "url": "https://www.humblebundle.com/"
-            }
-        ]
-    },
-    {
-        "tit": "刷题",
+        "tit": "问答",
         "list": [
             {
                 "name": "牛客网",
@@ -133,14 +95,6 @@
         "tit": "项目",
         "list": [
             {
-                "name": "石墨文档",
-                "url": "https://shimo.im/desktop"
-            },
-            {
-                "name": "MDN",
-                "url": "https://developer.mozilla.org/zh-CN/"
-            },
-            {
                 "name": "Coding",
                 "url": "https://coding.net/user"
             },
@@ -149,12 +103,82 @@
                 "url": "https://github.com/"
             },
             {
+                "name": "GitBook",
+                "url": "https://www.gitbook.com/"
+            },
+            {
                 "name": "腾讯云",
                 "url": "https://www.qcloud.com/"
             },
             {
                 "name": "七牛云",
                 "url": "http://www.qiniu.com/"
+            },
+            {
+                "name": "Tower",
+                "url": "https://tower.im/"
+            }
+        ]
+    },
+    {
+        "tit": "发现",
+        "list": [
+            {
+                "name": "掘金",
+                "url": "http://gold.xitu.io/"
+            },
+            {
+                "name": "掘金酱",
+                "url": "http://e.xitu.io"
+            },
+            {
+                "name": "InfoQ",
+                "url": "http://www.infoq.com/cn/"
+            },
+            {
+                "name": "码农网",
+                "url": "http://www.codeceo.com/"
+            },
+            {
+                "name": "ImportNew",
+                "url": "http://www.importnew.com/"
+            },
+            {
+                "name": "ifeve.com",
+                "url": "http://ifeve.com/"
+            }
+        ]
+    },
+    {
+        "tit": "成长",
+        "list": [
+            {
+                "name": "慕课网",
+                "url": "http://www.imooc.com/"
+            },
+            {
+                "name": "实验楼",
+                "url": "https://www.shiyanlou.com/"
+            },
+            {
+                "name": "阮一峰",
+                "url": "http://www.ruanyifeng.com/blog/"
+            },
+            {
+                "name": "Hollis",
+                "url": "http://www.hollischuang.com/"
+            },
+            {
+                "name": "jav_my_life",
+                "url": "http://www.cnblogs.com/java-my-life/"
+            },
+            {
+                "name": "JENKOV.com",
+                "url": "http://tutorials.jenkov.com/"
+            },
+            {
+                "name": "IBM deverloperWorks",
+                "url": "http://www.ibm.com/developerworks/cn/"
             }
         ]
     }
