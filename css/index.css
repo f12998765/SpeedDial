@@ -29,7 +29,7 @@ a:hover{
     z-index: -1;
     }
     .head{
-        width: 20%;
+        width: 12em;
         height: 3em;
         margin: 2em auto;
     }
@@ -83,14 +83,21 @@ a:hover{
     }
     .head{
         width: 100%;
-        height: 2.5em;
-        line-height: 2.5em;
-        display: flex;
-        margin-left: -0.5em;
+        height: 3em;
+        line-height: 3em;
+        margin: 1em auto;
     }
-    .head img{
-        width: 2.5em;
-        height: 2.5em;
+     #icon{
+        display: inline-block;
+        width: 8em;
+        padding-left: 4em;
+        height: 3em;
+        font-size: 1.2em;
+        line-height: 3em;
+        background-image:url('../favicon.ico');
+        background-repeat: no-repeat;
+        background-size: 3em 3em;
+        text-align: left;
     }
     .block{
         height: 3em;
@@ -100,7 +107,7 @@ a:hover{
     }
 
     .tit{
-        padding: 1.5em 0;
+        padding: 1em 0;
         text-align: left;
         width: 100%;
         border-bottom: 0.1em dashed #ccc;
