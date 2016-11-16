@@ -1,4 +1,26 @@
 [
+
+        {
+        "tit": "成长",
+        "list": [
+            {
+                "name": "慕课网",
+                "url": "http://www.imooc.com/"
+            },
+            {
+                "name": "实验楼",
+                "url": "https://www.shiyanlou.com/"
+            },
+            {
+                "name": "JENKOV.com",
+                "url": "http://tutorials.jenkov.com/"
+            },
+            {
+                "name": "IBM deverloperWorks",
+                "url": "http://www.ibm.com/developerworks/cn/"
+            }
+        ]
+    },
     {
         "tit": "生活",
         "list": [
@@ -13,6 +35,14 @@
             {
                 "name": "bilibili",
                 "url": "http://www.bilibili.com/"
+            },
+            {
+                "name": "MCBBS",
+                "url": "http://www.mcbbs.net/"
+            },
+            {
+                "name": "Minecraft Wiki",
+                "url": "http://minecraft-zh.gamepedia.com/Minecraft_Wiki"
             }
         ]
     },
@@ -31,6 +61,7 @@
                 "name": "reddit",
                 "url": "https://www.reddit.com/"
             },
+
             {
                 "name": "Hacker News",
                 "url": "https://news.ycombinator.com/"
@@ -52,18 +83,19 @@
                 "name": "MoeTu",
                 "url": "https://moetu.org/"
             },
-            {
-                "name": "jsfiddle",
-                "url": "https://jsfiddle.net/"
+                        {
+                "name": "Instapaper",
+                "url": "https://www.instapaper.com/u"
             },
             {
                 "name": "石墨文档",
-                "url": "https://shimo.im/"
+                "url": "https://shimo.im/desktop"
             },
             {
                 "name": "howsoftworks",
                 "url": "http://www.howsoftworks.net//"
             }
+
         ]
     },
     {
@@ -149,17 +181,10 @@
             }
         ]
     },
+
     {
-        "tit": "成长",
+        "tit": "他言",
         "list": [
-            {
-                "name": "慕课网",
-                "url": "http://www.imooc.com/"
-            },
-            {
-                "name": "实验楼",
-                "url": "https://www.shiyanlou.com/"
-            },
             {
                 "name": "阮一峰",
                 "url": "http://www.ruanyifeng.com/blog/"
@@ -177,12 +202,20 @@
                 "url": "http://www.cnblogs.com/java-my-life/"
             },
             {
-                "name": "JENKOV.com",
-                "url": "http://tutorials.jenkov.com/"
+                "name": "MacTalk",
+                "url": "http://macshuo.com/"
             },
             {
-                "name": "IBM deverloperWorks",
-                "url": "http://www.ibm.com/developerworks/cn/"
+                "name": "鸟窝",
+                "url": "http://colobu.com/"
+            },
+            {
+                "name": "Hello World",
+                "url": "http://blog.mayongfa.cn/"
+            },
+            {
+                "name": "read and go",
+                "url": "http://unee.wang/"
             }
         ]
     }
