@@ -1,12 +1,11 @@
 # SpeedDial  一个简单的网址索引
 
-灵感来自 ：[我的索引-程序员垂直导航](http://www.51index.cn/)
+## 感谢
 
-Favicon API：[获取网站Favicon | BYI_API](https://api.byi.pw/favicon/)
+- [我的索引-程序员垂直导航](http://www.51index.cn/)
+- [获取网站Favicon | BYI_API](https://api.byi.pw/favicon/)
+- [vue.js](https://vuejs.org/)
 
-实现 ：[vue.js](https://vuejs.org/)
-
-~~技术 ：[laytpl.js- 精妙的JavaScript模板引擎](http://laytpl.layui.com/)~~
 
 ## 快速开始
 
@@ -19,7 +18,6 @@ Favicon API：[获取网站Favicon | BYI_API](https://api.byi.pw/favicon/)
 
 ## 修改帮助
 
-~~- 项目的Html模板由 [laytpl.js](http://laytpl.layui.com/) 生成~~
 - 项目的网站数据放在 `json/url.json` 中，结构如下
   - tit : 网站分类
   - list ： 网站列表
