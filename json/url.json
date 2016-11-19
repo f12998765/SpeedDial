@@ -22,6 +22,31 @@
         ]
     },
     {
+        "tit": "项目",
+        "list": [
+            {
+                "name": "Coding",
+                "url": "https://coding.net/user"
+            },
+            {
+                "name": "Github",
+                "url": "https://github.com/"
+            },
+            {
+                "name": "腾讯云",
+                "url": "https://www.qcloud.com/"
+            },
+            {
+                "name": "七牛云",
+                "url": "http://www.qiniu.com/"
+            },
+            {
+                "name": "Tower",
+                "url": "https://tower.im/"
+            }
+        ]
+    },
+    {
         "tit": "生活",
         "list": [
             {
@@ -120,35 +145,6 @@
             {
                 "name": "SegmentFault",
                 "url": "https://segmentfault.com/"
-            }
-        ]
-    },
-    {
-        "tit": "项目",
-        "list": [
-            {
-                "name": "Coding",
-                "url": "https://coding.net/user"
-            },
-            {
-                "name": "Github",
-                "url": "https://github.com/"
-            },
-            {
-                "name": "GitBook",
-                "url": "https://www.gitbook.com/"
-            },
-            {
-                "name": "腾讯云",
-                "url": "https://www.qcloud.com/"
-            },
-            {
-                "name": "七牛云",
-                "url": "http://www.qiniu.com/"
-            },
-            {
-                "name": "Tower",
-                "url": "https://tower.im/"
             }
         ]
     },
