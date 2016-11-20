@@ -1,218 +1,149 @@
 [
-
-        {
-        "tit": "成长",
-        "list": [
-            {
-                "name": "慕课网",
-                "url": "http://www.imooc.com/"
-            },
-            {
-                "name": "实验楼",
-                "url": "https://www.shiyanlou.com/"
-            },
-            {
-                "name": "JENKOV.com",
-                "url": "http://tutorials.jenkov.com/"
-            },
-            {
-                "name": "IBM deverloperWorks",
-                "url": "http://www.ibm.com/developerworks/cn/"
-            }
-        ]
-    },
-    {
-        "tit": "项目",
-        "list": [
-            {
-                "name": "Coding",
-                "url": "https://coding.net/user"
-            },
-            {
-                "name": "Github",
-                "url": "https://github.com/"
-            },
-            {
-                "name": "腾讯云",
-                "url": "https://www.qcloud.com/"
-            },
-            {
-                "name": "七牛云",
-                "url": "http://www.qiniu.com/"
-            },
-            {
-                "name": "Tower",
-                "url": "https://tower.im/"
-            }
-        ]
-    },
-    {
-        "tit": "生活",
-        "list": [
-            {
-                "name": "豆瓣FM",
-                "url": "https://douban.fm/"
-            },
-            {
-                "name": "网易云音乐",
-                "url": "http://music.163.com/"
-            },
-            {
-                "name": "bilibili",
-                "url": "http://www.bilibili.com/"
-            },
-            {
-                "name": "MCBBS",
-                "url": "http://www.mcbbs.net/"
-            },
-            {
-                "name": "Minecraft Wiki",
-                "url": "http://minecraft-zh.gamepedia.com/Minecraft_Wiki"
-            }
-        ]
-    },
-    {
-        "tit": "News",
-        "list": [
-            {
-                "name": "V2EX",
-                "url": "https://v2ex.com/"
-            },
-            {
-                "name": "Twitter",
-                "url": "https://twitter.com/"
-            },
-            {
-                "name": "reddit",
-                "url": "https://www.reddit.com/"
-            },
-
-            {
-                "name": "Hacker News",
-                "url": "https://news.ycombinator.com/"
-            },
-            {
-                "name": "Startup News",
-                "url": "http://news.dbanotes.net/"
-            }
-        ]
-    },
-    {
-        "tit": "工具",
-        "list": [
-            {
-                "name": "花蜜",
-                "url": "https://flowerpassword.com/app/web"
-            },
-            {
-                "name": "MoeTu",
-                "url": "https://moetu.org/"
-            },
-                        {
-                "name": "Instapaper",
-                "url": "https://www.instapaper.com/u"
-            },
-            {
-                "name": "石墨文档",
-                "url": "https://shimo.im/desktop"
-            },
-            {
-                "name": "howsoftworks",
-                "url": "http://www.howsoftworks.net//"
-            }
-
-        ]
-    },
-    {
-        "tit": "问答",
-        "list": [
-            {
-                "name": "牛客网",
-                "url": "http://www.nowcoder.com/"
-            },
-            {
-                "name": "Codewars",
-                "url": "https://www.codewars.com/"
-            },
-            {
-                "name": "LeetCode",
-                "url": "https://leetcode.com/"
-            },
-            {
-                "name": "StackOverflow",
-                "url": "https://stackoverflow.com/"
-            },
-            {
-                "name": "SegmentFault",
-                "url": "https://segmentfault.com/"
-            }
-        ]
-    },
-    {
-        "tit": "发现",
-        "list": [
-            {
-                "name": "掘金",
-                "url": "http://gold.xitu.io/"
-            },
-            {
-                "name": "掘金酱",
-                "url": "http://e.xitu.io"
-            },
-            {
-                "name": "InfoQ",
-                "url": "http://www.infoq.com/cn/"
-            },
-            {
-                "name": "码农网",
-                "url": "http://www.codeceo.com/"
-            },
-            {
-                "name": "ImportNew",
-                "url": "http://www.importnew.com/"
-            },
-            {
-                "name": "ifeve.com",
-                "url": "http://ifeve.com/"
-            }
-        ]
-    },
-
-    {
-        "tit": "他言",
-        "list": [
-            {
-                "name": "阮一峰",
-                "url": "http://www.ruanyifeng.com/blog/"
-            },
-            {
-                "name": "花钱的年华",
-                "url":"http://calvin1978.blogcn.com/"
-            },
-            {
-                "name": "Hollis",
-                "url": "http://www.hollischuang.com/"
-            },
-            {
-                "name": "jav_my_life",
-                "url": "http://www.cnblogs.com/java-my-life/"
-            },
-            {
-                "name": "MacTalk",
-                "url": "http://macshuo.com/"
-            },
-            {
-                "name": "鸟窝",
-                "url": "http://colobu.com/"
-            },
-            {
-                "name": "Hello World",
-                "url": "http://blog.mayongfa.cn/"
-            },
-            {
-                "name": "read and go",
-                "url": "http://unee.wang/"
-            }
-        ]
-    }
+  {
+    "tit": "新鲜",
+    "list": [
+      {
+        "name": "V2EX",
+        "url": "https://v2ex.com/"
+      },
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/"
+      },
+      {
+        "name": "reddit",
+        "url": "https://www.reddit.com/"
+      }
+    ]
+  },
+  {
+    "tit": "生活",
+    "list": [
+      {
+        "name": "网易云音乐",
+        "url": "http://music.163.com/"
+      },
+      {
+        "name": "bilibili",
+        "url": "http://www.bilibili.com/"
+      },
+      {
+        "name": "MCBBS",
+        "url": "http://www.mcbbs.net/"
+      }
+    ]
+  },
+  {
+    "tit": "阅读",
+    "list": [
+      {
+        "name": "Inoreader",
+        "url": "http://www.inoreader.com"
+      },
+      {
+        "name": "Instapaper",
+        "url": "https://www.instapaper.com/u"
+      },
+      {
+        "name": "掘金",
+        "url": "http://gold.xitu.io/"
+      },
+      {
+        "name": "InfoQ",
+        "url": "http://www.infoq.com/cn/"
+      }
+    ]
+  },
+  {
+    "tit": "项目",
+    "list": [
+      {
+        "name": "掘金酱",
+        "url": "http://e.xitu.io"
+      },
+      {
+        "name": "Github",
+        "url": "https://github.com/"
+      },
+      {
+        "name": "Coding",
+        "url": "https://coding.net/user"
+      },
+      {
+        "name": "腾讯云",
+        "url": "https://www.qcloud.com/"
+      }
+    ]
+  },
+  {
+    "tit": "成长",
+    "list": [
+      {
+        "name": "码农网",
+        "url": "http://www.codeceo.com/"
+      },
+      {
+        "name": "ImportNew",
+        "url": "http://www.importnew.com/"
+      },
+      {
+        "name": "ifeve.com",
+        "url": "http://ifeve.com/"
+      },
+      {
+        "name": "deverloperWorks",
+        "url": "http://www.ibm.com/developerworks/cn/"
+      }
+    ]
+  },
+  {
+    "tit": "他言",
+    "list": [
+      {
+        "name": "Hollis",
+        "url": "http://www.hollischuang.com/"
+      },
+      {
+        "name": "XIZERO",
+        "url": "http://www.xizero.com"
+      },
+      {
+        "name": "阮一峰",
+        "url": "http://www.ruanyifeng.com/blog/"
+      },
+      {
+        "name": "jav_my_life",
+        "url": "http://www.cnblogs.com/java-my-life/"
+      },
+      {
+        "name": "Hello World",
+        "url": "http://blog.mayongfa.cn/"
+      }
+    ]
+  },
+  {
+    "tit": "不知",
+    "list": [
+      {
+        "name": "牛客网",
+        "url": "http://www.nowcoder.com/"
+      },
+      {
+        "name": "Codewars",
+        "url": "https://www.codewars.com/"
+      },
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/"
+      },
+      {
+        "name": "StackOverflow",
+        "url": "https://stackoverflow.com/"
+      },
+      {
+        "name": "SegmentFault",
+        "url": "https://segmentfault.com/"
+      }
+    ]
+  }
 ]

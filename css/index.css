@@ -1,20 +1,23 @@
 body{
-    color: #666;
-    font-size: 1em;
+    color: #48585b;
+    font-size: 1rem;
     font-family: Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', Arial, sans-serif;
 }
+
 a{
-    text-decoration: none;
-    color: #666;
+  text-decoration: none;
+  color: #48585b;
+  letter-spacing: 0.05rem;
 }
+
 a:hover{
-    color:#222;
-    text-decoration: underline;
+  color: #182532;
 }
+
 .block img{
-    width: 1.05em;
-    height: 1.05em;
-    margin-bottom: -0.2em;
+    width: 1.05rem;
+    height: 1.05rem;
+    margin-bottom: -0.2rem;
 }
 .con{
     width: 86%;
@@ -22,6 +25,9 @@ a:hover{
 }
 
 @media all and (min-width: 1201px) {
+    html{
+        font-size: 18px;
+    }
     #hello{
     position: fixed;
     top: 0;
@@ -29,50 +35,53 @@ a:hover{
     z-index: -1;
     }
     .head{
-        width: 12em;
-        height: 3em;
-        margin: 2em auto;
+        width: 13rem;
+        height: 3rem;
+        margin: 2rem auto;
     }
     #icon{
         display: inline-block;
-        width: 8em;
-        padding-left: 3em;
-        height: 3em;
-        line-height: 3em;
+        width: 10rem;
+        padding-left: 3rem;
+        height: 3rem;
+        line-height: 3rem;
         background-image:url('../favicon.ico');
         background-repeat: no-repeat;
-        background-size: 3em 3em;
+        background-size: 3rem 3rem;
         text-align: right;
+        letter-spacing: 0.3rem;
     }
-
+    #view{
+        padding-left: 1.5rem;
+    }
     .row{
         display: flex;
-        /*border-bottom: 0.1em dashed #ccc;*/
+        /*border-bottom: 0.1rem dashed #ccc;*/
     }
 
     .list{
         flex-wrap:wrap;
     }
     .block{
-        height: 3.5em;
-        line-height: 3.5em;
+        height: 3.5rem;
+        line-height: 3.5rem;
         display: inline-block;
-        min-width: 10em;
+        min-width: 10rem;
     }
 
     .tit{
         flex: none;
         float: left;
         align-self:center;
-        width: 3em;
-        padding: 0 3em;
-        text-align: left;
-
+        width: 5rem;
+        padding: 0 3rem;
+        text-align: center;
+        letter-spacing: 1rem;
     }
 
     #footer{
-        margin: 5em auto 0 auto;
-        width: 14em;
+        margin: 2.6rem auto 0 auto;
+        width: 9.3rem;
         font-size:10px; 
     }
 }
@@ -83,47 +92,47 @@ a:hover{
     }
     .head{
         width: 100%;
-        height: 3em;
-        line-height: 3em;
-        margin: 1em auto;
+        height: 3rem;
+        line-height: 3rem;
+        margin: 1rem auto;
     }
      #icon{
         display: inline-block;
-        width: 8em;
-        padding-left: 4em;
-        height: 3em;
-        font-size: 1.2em;
-        line-height: 3em;
+        width: 8rem;
+        padding-left: 4rem;
+        height: 3rem;
+        font-size: 1.2rem;
+        line-height: 3rem;
         background-image:url('../favicon.ico');
         background-repeat: no-repeat;
-        background-size: 3em 3em;
+        background-size: 3rem 3rem;
         text-align: left;
     }
     .block{
-        height: 3em;
-        line-height: 3em;
+        height: 3rem;
+        line-height: 3rem;
         display: inline-block;
         min-width: 48%;
     }
 
     .tit{
-        padding: 1em 0;
+        padding: 1rem 0;
         text-align: left;
         width: 100%;
-        border-bottom: 0.1em dashed #ccc;
+        border-bottom: 0.1rem dashed #ccc;
     }
 
     #footer{
         border-top:1px dashed #888;
-        margin-top: 1em;
+        margin-top: 1rem;
         text-align: left;
-        height: 3em;
-        line-height: 3em;
+        height: 3rem;
+        line-height: 3rem;
     }
 
     img.github{
-        width: 1.2em;
-        height: 1.2em;
+        width: 1.2rem;
+        height: 1.2rem;
 
     }
 }
