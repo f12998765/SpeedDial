@@ -13,36 +13,27 @@
       {
         "name": "reddit",
         "url": "https://www.reddit.com/"
-      }
-    ]
-  },
-  {
-    "tit": "生活",
-    "list": [
-      {
-        "name": "网易云音乐",
-        "url": "http://music.163.com/"
       },
       {
         "name": "bilibili",
         "url": "http://www.bilibili.com/"
       },
       {
-        "name": "MCBBS",
-        "url": "http://www.mcbbs.net/"
+        "name": "端傳媒",
+        "url": "https://theinitium.com/"
       }
     ]
   },
   {
-    "tit": "阅读",
+    "tit": "发现",
     "list": [
+      {
+        "name": "Medium",
+        "url": "https://medium.com/#"
+      },
       {
         "name": "Inoreader",
         "url": "http://www.inoreader.com"
-      },
-      {
-        "name": "Instapaper",
-        "url": "https://www.instapaper.com/u"
       },
       {
         "name": "掘金",
@@ -51,6 +42,10 @@
       {
         "name": "InfoQ",
         "url": "http://www.infoq.com/cn/"
+      },
+      {
+        "name": "开源资讯",
+        "url": "https://www.oschina.net/news"
       }
     ]
   },
@@ -58,16 +53,20 @@
     "tit": "项目",
     "list": [
       {
-        "name": "掘金酱",
-        "url": "http://e.xitu.io"
-      },
-      {
         "name": "Github",
         "url": "https://github.com/"
       },
       {
         "name": "Coding",
         "url": "https://coding.net/user"
+      },
+      {
+        "name": "牛客网",
+        "url": "http://www.nowcoder.com/"
+      },
+      {
+        "name": "SegmentFault",
+        "url": "https://segmentfault.com/"
       },
       {
         "name": "腾讯云",
@@ -91,8 +90,62 @@
         "url": "http://ifeve.com/"
       },
       {
-        "name": "deverloperWorks",
+        "name": "IBM works",
         "url": "http://www.ibm.com/developerworks/cn/"
+      },
+      {
+        "name": "Java API",
+        "url": "http://docs.oracle.com/javase/8/docs/api/"
+      }
+    ]
+  },
+  {
+    "tit": "椴木",
+    "list": [
+      {
+        "name": "EMOJI",
+        "url": "http://www.webpagefx.com/tools/emoji-cheat-sheet/"
+      },
+      {
+        "name": "锤子便签",
+        "url": "https://cloud.smartisan.com/#/notes"
+      },
+      {
+        "name": "GistBox",
+        "url": "https://app.gistboxapp.com/library/my-gists"
+      },
+      {
+        "name": "Dropbox",
+        "url": "https://www.dropbox.com/home"
+      },
+      {
+        "name": "Instapaper",
+        "url": "https://www.instapaper.com/u"
+      }
+    ]
+  },
+  {
+    "tit": "疾风",
+    "list": [
+      {
+        "name": "豆瓣FM",
+        "url": "https://douban.fm/"
+      },
+      {
+        "name": "NEXT",
+        "url": "http://next.36kr.com/posts"
+      },
+      {
+        "name": "Inbox",
+        "url": "https://inbox.google.com"
+      },
+      {
+        "name": "Yeah",
+        "url": "http://mail.yeah.net/"
+      },
+      {
+        "name": "Google 翻译",
+        "url": "https://translate.google.com/"
       }
     ]
   },
@@ -118,31 +171,6 @@
       {
         "name": "Hello World",
         "url": "http://blog.mayongfa.cn/"
-      }
-    ]
-  },
-  {
-    "tit": "不知",
-    "list": [
-      {
-        "name": "牛客网",
-        "url": "http://www.nowcoder.com/"
-      },
-      {
-        "name": "Codewars",
-        "url": "https://www.codewars.com/"
-      },
-      {
-        "name": "LeetCode",
-        "url": "https://leetcode.com/"
-      },
-      {
-        "name": "StackOverflow",
-        "url": "https://stackoverflow.com/"
-      },
-      {
-        "name": "SegmentFault",
-        "url": "https://segmentfault.com/"
       }
     ]
   }

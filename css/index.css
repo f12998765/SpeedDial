@@ -1,6 +1,12 @@
+html,body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
 body{
     color: #48585b;
-    font-size: 1rem;
+    font-size: 1.5vw;
     font-family: Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', Arial, sans-serif;
 }
 
@@ -14,125 +20,114 @@ a:hover{
   color: #182532;
 }
 
-.block img{
-    width: 1.05rem;
-    height: 1.05rem;
-    margin-bottom: -0.2rem;
-}
 .con{
-    width: 86%;
-    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
 }
 
-@media all and (min-width: 1201px) {
-    html{
-        font-size: 18px;
-    }
-    #hello{
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    }
-    .head{
-        width: 13rem;
-        height: 3rem;
-        margin: 2rem auto;
-    }
-    #icon{
-        display: inline-block;
-        width: 10rem;
-        padding-left: 3rem;
-        height: 3rem;
-        line-height: 3rem;
-        background-image:url('../favicon.ico');
-        background-repeat: no-repeat;
-        background-size: 3rem 3rem;
-        text-align: right;
-        letter-spacing: 0.3rem;
-    }
-    #view{
-        padding-left: 1.5rem;
-    }
-    .row{
-        display: flex;
-        /*border-bottom: 0.1rem dashed #ccc;*/
-    }
 
-    .list{
-        flex-wrap:wrap;
-    }
-    .block{
-        height: 3.5rem;
-        line-height: 3.5rem;
-        display: inline-block;
-        min-width: 10rem;
-    }
-
-    .tit{
-        flex: none;
-        float: left;
-        align-self:center;
-        width: 5rem;
-        padding: 0 3rem;
-        text-align: center;
-        letter-spacing: 1rem;
-    }
-
-    #footer{
-        margin: 2.6rem auto 0 auto;
-        width: 9.3rem;
-        font-size:10px; 
-    }
+#hello{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.head{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.2rem;
+}
+#icon{
+    width: 2rem;
+    height: 2rem;
 }
 
-@media all and (max-width: 1200px) {
+#view{
+  /*display: flex;
+  flex-direction:column;*/
+  /*justify-content: center;
+  align-items: center;*/
+}
+.row{
+    width: 100%;
+    line-height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction:row;
+}
+
+.tit{
+    min-width: 10vw;
+    letter-spacing: 1vw;
+}
+
+.list{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.block{
+    min-width: 13vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+}
+
+.block img{
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.2vw;
+}
+
+.footer{
+    width: 100%;
+    font-size:10px;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media all and (max-width: 720px) {
     #hello{
         display: none;
     }
-    .head{
-        width: 100%;
-        height: 3rem;
-        line-height: 3rem;
-        margin: 1rem auto;
+    .head,.footer{
+      height: 5rem;
+      line-height: 5rem;
     }
-     #icon{
-        display: inline-block;
-        width: 8rem;
-        padding-left: 4rem;
-        height: 3rem;
-        font-size: 1.2rem;
-        line-height: 3rem;
-        background-image:url('../favicon.ico');
-        background-repeat: no-repeat;
-        background-size: 3rem 3rem;
-        text-align: left;
+    body{
+      font-size: 2vw;
+    }
+    .row{
+      line-height: normal;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .tit{
+      height: 2rem;
+      line-height: 2rem;
+      width: 100%;
+      border-bottom: 0.1rem dashed #ccc;
+    }
+
+    .list{
+
     }
     .block{
-        height: 3rem;
-        line-height: 3rem;
-        display: inline-block;
-        min-width: 48%;
-    }
-
-    .tit{
-        padding: 1rem 0;
-        text-align: left;
-        width: 100%;
-        border-bottom: 0.1rem dashed #ccc;
-    }
-
-    #footer{
-        border-top:1px dashed #888;
-        margin-top: 1rem;
-        text-align: left;
-        height: 3rem;
-        line-height: 3rem;
-    }
-
-    img.github{
-        width: 1.2rem;
-        height: 1.2rem;
-
+      height: 2rem;
+      line-height: 2rem;
+      width: 25vw;
+      float: left;
     }
 }
