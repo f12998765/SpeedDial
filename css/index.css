@@ -6,8 +6,8 @@ html,body{
 }
 body{
     color: #48585b;
-    font-size: 1.5vw;
-    font-family: Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', Arial, sans-serif;
+    font-size: 1.8vw;
+    font-family: "楷体", 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', Arial, sans-serif;
 }
 
 a{
@@ -56,7 +56,7 @@ a:hover{
 }
 .row{
     width: 100%;
-    line-height: 8vh;
+    line-height: 10vh;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -75,7 +75,7 @@ a:hover{
     justify-content: flex-start;
 }
 .block{
-    min-width: 13vw;
+    min-width: 16vw;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -83,8 +83,8 @@ a:hover{
 }
 
 .block img{
-    width: 1rem;
-    height: 1rem;
+    width: 1.2rem;
+    height: 1.2rem;
     margin-right: 0.2vw;
 }
 

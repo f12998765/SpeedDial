@@ -1,177 +1,128 @@
 [
-  {
-    "tit": "新鲜",
-    "list": [
-      {
-        "name": "V2EX",
-        "url": "https://v2ex.com/"
-      },
-      {
-        "name": "Twitter",
-        "url": "https://twitter.com/"
-      },
-      {
-        "name": "reddit",
-        "url": "https://www.reddit.com/"
-      },
-      {
-        "name": "bilibili",
-        "url": "http://www.bilibili.com/"
-      },
-      {
-        "name": "端傳媒",
-        "url": "https://theinitium.com/"
-      }
-    ]
-  },
-  {
-    "tit": "发现",
-    "list": [
-      {
-        "name": "Medium",
-        "url": "https://medium.com/#"
-      },
-      {
-        "name": "Inoreader",
-        "url": "http://www.inoreader.com"
-      },
-      {
-        "name": "掘金",
-        "url": "http://gold.xitu.io/"
-      },
-      {
-        "name": "InfoQ",
-        "url": "http://www.infoq.com/cn/"
-      },
-      {
-        "name": "开源资讯",
-        "url": "https://www.oschina.net/news"
-      }
-    ]
-  },
-  {
-    "tit": "项目",
-    "list": [
-      {
-        "name": "Github",
-        "url": "https://github.com/"
-      },
-      {
-        "name": "Coding",
-        "url": "https://coding.net/user"
-      },
-      {
-        "name": "牛客网",
-        "url": "http://www.nowcoder.com/"
-      },
-      {
-        "name": "SegmentFault",
-        "url": "https://segmentfault.com/"
-      },
-      {
-        "name": "腾讯云",
-        "url": "https://www.qcloud.com/"
-      }
-    ]
-  },
-  {
-    "tit": "成长",
-    "list": [
-      {
-        "name": "码农网",
-        "url": "http://www.codeceo.com/"
-      },
-      {
-        "name": "ImportNew",
-        "url": "http://www.importnew.com/"
-      },
-      {
-        "name": "ifeve.com",
-        "url": "http://ifeve.com/"
-      },
-      {
-        "name": "IBM works",
-        "url": "http://www.ibm.com/developerworks/cn/"
-      },
-      {
-        "name": "Java API",
-        "url": "http://docs.oracle.com/javase/8/docs/api/"
-      }
-    ]
-  },
-  {
-    "tit": "椴木",
-    "list": [
-      {
-        "name": "EMOJI",
-        "url": "http://www.webpagefx.com/tools/emoji-cheat-sheet/"
-      },
-      {
-        "name": "锤子便签",
-        "url": "https://cloud.smartisan.com/#/notes"
-      },
-      {
-        "name": "GistBox",
-        "url": "https://app.gistboxapp.com/library/my-gists"
-      },
-      {
-        "name": "Dropbox",
-        "url": "https://www.dropbox.com/home"
-      },
-      {
-        "name": "Instapaper",
-        "url": "https://www.instapaper.com/u"
-      }
-    ]
-  },
-  {
-    "tit": "疾风",
-    "list": [
-      {
-        "name": "豆瓣FM",
-        "url": "https://douban.fm/"
-      },
-      {
-        "name": "NEXT",
-        "url": "http://next.36kr.com/posts"
-      },
-      {
-        "name": "Inbox",
-        "url": "https://inbox.google.com"
-      },
-      {
-        "name": "Yeah",
-        "url": "http://mail.yeah.net/"
-      },
-      {
-        "name": "Google 翻译",
-        "url": "https://translate.google.com/"
-      }
-    ]
-  },
-  {
-    "tit": "他言",
-    "list": [
-      {
-        "name": "Hollis",
-        "url": "http://www.hollischuang.com/"
-      },
-      {
-        "name": "XIZERO",
-        "url": "http://www.xizero.com"
-      },
-      {
-        "name": "阮一峰",
-        "url": "http://www.ruanyifeng.com/blog/"
-      },
-      {
-        "name": "jav_my_life",
-        "url": "http://www.cnblogs.com/java-my-life/"
-      },
-      {
-        "name": "Hello World",
-        "url": "http://blog.mayongfa.cn/"
-      }
-    ]
-  }
+    {
+        "tit": "资讯",
+        "list": [
+            {
+                "name": "V2EX",
+                "url": "https://v2ex.com/"
+            },
+            {
+                "name": "Inoreader",
+                "url": "http://www.inoreader.com"
+            },
+            {
+                "name": "掘金",
+                "url": "http://gold.xitu.io/"
+            },
+            {
+                "name": "XIZERO",
+                "url": "http://xizero.com/"
+            }
+        ]
+    },
+    {
+        "tit": "生活",
+        "list": [
+            {
+                "name": "reddit",
+                "url": "https://www.reddit.com/"
+            },
+            {
+                "name": "Twitter",
+                "url": "https://twitter.com/"
+            },
+            {
+                "name": "bilibili",
+                "url": "http://www.bilibili.com/"
+            },
+            {
+                "name": "豆瓣 FM",
+                "url": "https://douban.fm/"
+            }
+        ]
+    },
+    {
+        "tit": "椴木",
+        "list": [
+            {
+                "name": "幕布",
+                "url": "http://mubu.io/list"
+            },
+            {
+                "name": "Keep",
+                "url": "https://keep.google.com/"
+            },
+            {
+                "name": "GistBox",
+                "url": "https://app.gistboxapp.com/library/my-gists"
+            },
+            {
+                "name": "Instapaper",
+                "url": "https://www.instapaper.com/u"
+            }
+        ]
+    },
+    {
+        "tit": "工具",
+        "list": [
+            {
+                "name": "Yeah",
+                "url": "http://mail.yeah.net/"
+            },
+            {
+                "name": "Inbox",
+                "url": "https://inbox.google.com"
+            },
+            {
+                "name": "Dropbox",
+                "url": "https://www.dropbox.com/home"
+            },
+            {
+                "name": "Google 翻译",
+                "url": "https://translate.google.com/"
+            }
+        ]
+    },
+    {
+        "tit": "成长",
+        "list": [
+            {
+                "name": "码农网",
+                "url": "http://www.codeceo.com/"
+            },
+            {
+                "name": "ImportNew",
+                "url": "http://www.importnew.com/"
+            },
+            {
+                "name": "ifeve.com",
+                "url": "http://ifeve.com/"
+            },
+            {
+                "name": "IBM开发者社区",
+                "url": "https://www.ibm.com/developerworks/"
+            }
+        ]
+    },
+    {
+        "tit": "项目",
+        "list": [
+            {
+                "name": "Github",
+                "url": "https://github.com/"
+            },
+            {
+                "name": "Docker",
+                "url": "https://www.docker.com/"
+            },
+            {
+                "name": "腾讯云",
+                "url": "https://www.qcloud.com/"
+            },
+            {
+                "name": "Stack Overflow",
+                "url": "https://stackoverflow.com/"
+            }
+        ]
+    }
 ]
