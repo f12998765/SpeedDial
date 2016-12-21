@@ -19,7 +19,8 @@
                 <div class="tit">{{webs.tit}}</div>
                 <div class="list">
                     <div class="block" v-for="web in webs.list">
-                        <img :src="'http://api.byi.pw/favicon/?url='+web.url" />
+                        <!--<img :src="'http://api.byi.pw/favicon/?url='+web.url" />-->
+                        <img :src="'https://icons.better-idea.org/icon?url='+getImage(web.url)+'&size=16..32..64'" >
                         <span>
                           <a :href="web.url" target="_blank" rel="noopener">{{web.name}}</a>
                         </span>

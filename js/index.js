@@ -16,6 +16,20 @@ var vm = new Vue({
             console.log('parsing failed', ex)
         })
     
+    },
+    methods: {
+        getImage: function (s) {
+            var n=s.lastIndexOf('/');
+
+            if(s.indexOf('http://www.importnew.com/')!=-1)
+                return s+"&size=16..16..64";
+
+            if(n==7||n==6||n==(s.length-1))
+                return s;
+            else
+                return s.substr(0,n);
+            return s;
+        }
     }
 
 })
