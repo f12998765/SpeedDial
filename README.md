@@ -3,7 +3,7 @@
 ## 感谢
 
 - [我的索引-程序员垂直导航](http://www.51index.cn/)
-- [获取网站Favicon | BYI_API](https://api.byi.pw/favicon/)
+- [The Favicon Finder](https://icons.better-idea.org/)
 - [vue.js](https://vuejs.org/)
 
 
@@ -30,6 +30,11 @@
 
 - **推 荐 -->**  在chrome中安装 [Web Server for Chrome](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb)
 - 在 `js/index.js` 中修改 `$.getJSON()` 参数为 `url.json` 文件远程地址
+
+### 网站图标获取不到时，请判断
+
+- 是否网站被墙，无法访问
+- 更多信息，请看 [https://icons.better-idea.org/](https://icons.better-idea.org/)
 
 ## js 脚本 - Chrome导出书签生成 url.json
 
