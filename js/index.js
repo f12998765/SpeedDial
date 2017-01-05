@@ -2,7 +2,7 @@ var vm = new Vue({
     el: '#view',
     data: {
         xjson:[],
-        apiUrl: '../json/url.json',
+        apiUrl: './json/url.json',
         apiTest:'http://ob4kd8p3g.bkt.clouddn.com/url.json'
     },
     mounted: function () {
