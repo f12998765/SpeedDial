@@ -11,8 +11,8 @@
         "url": "http://www.inoreader.com"
       },
       {
-        "name": "Medium",
-        "url": "https://medium.com/"
+        "name": "Hacker News",
+        "url": "https://news.ycombinator.com/news"
       },
       {
         "name": "XIZERO",
@@ -21,40 +21,19 @@
     ]
   },
   {
-    "tit": "生活",
-    "list": [
-      {
-        "name": "bilibili",
-        "url": "http://www.bilibili.com/"
-      },
-      {
-        "name": "落网",
-        "url": "http://www.luoo.net/"
-      },
-      {
-        "name": "游民星空",
-        "url": "http://www.gamersky.com/"
-      },
-      {
-        "name": "MCBBS",
-        "url": "http://www.mcbbs.net/forum.php"
-      }
-    ]
-  },
-  {
-    "tit": "项目",
+    "tit": "成长",
     "list": [
       {
         "name": "牛客网",
         "url": "https://www.nowcoder.com"
       },
       {
-        "name": "Github",
-        "url": "https://github.com/"
+        "name": "Gitbook",
+        "url": "https://www.gitbook.com/explore"
       },
       {
-        "name": "Docker",
-        "url": "https://www.docker.com/"
+        "name": "Github",
+        "url": "https://github.com/"
       },
       {
         "name": "腾讯云",
@@ -63,23 +42,23 @@
     ]
   },
   {
-    "tit": "椴木",
+    "tit": "生活",
     "list": [
       {
-        "name": "Keep",
-        "url": "https://keep.google.com/"
+        "name": "V 电影",
+        "url": "http://www.vmovier.com/"
       },
       {
-        "name": "滴答清单",
-        "url": "https://www.dida365.com/"
+        "name": "哔哩哔哩",
+        "url": "http://www.bilibili.com/"
       },
       {
-        "name": "奶牛快传",
-        "url": "http://cowfactory.cn/"
+        "name": "豆瓣 FM",
+        "url": "https://douban.fm"
       },
       {
-        "name": "Linux 命令速查",
-        "url": "https://jaywcjlove.github.io/linux-command/"
+        "name": "游民星空",
+        "url": "http://www.gamersky.com/"
       }
     ]
   },
@@ -105,23 +84,44 @@
     ]
   },
   {
-    "tit": "成长",
+    "tit": "汲取",
     "list": [
       {
-        "name": "掘金",
+        "name": "掘金酱",
         "url": "http://gold.xitu.io/"
-      },
-      {
-        "name": "ImportNew",
-        "url": "http://www.importnew.com/"
       },
       {
         "name": "ifeve.com",
         "url": "http://ifeve.com/"
       },
       {
-        "name": "IBM开发者社区",
-        "url": "https://www.ibm.com/developerworks/"
+        "name": "ImportNew",
+        "url": "http://www.importnew.com/"
+      },
+      {
+        "name": "developerWorks",
+        "url": "https://www.ibm.com/developerworks/cn/"
+      }
+    ]
+  },
+  {
+    "tit": "椴木",
+    "list": [
+      {
+        "name": "坚果云",
+        "url": "https://www.jianguoyun.com"
+      },
+      {
+        "name": "滴答清单",
+        "url": "https://www.dida365.com/"
+      },
+      {
+        "name": "奶牛快传",
+        "url": "http://cowfactory.cn/"
+      },
+      {
+        "name": "Flower Password",
+        "url": "https://flowerpassword.com/app/web"
       }
     ]
   }
