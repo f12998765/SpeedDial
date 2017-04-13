@@ -6,7 +6,7 @@ html,body{
 }
 body{
     color: #182532;
-    font-size: 1.8vw;
+    font-size: 20px;
     font-family: 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', Arial, sans-serif;
 }
 
@@ -14,10 +14,6 @@ a{
   text-decoration: none;
   color: #182532;
   letter-spacing: 0.05rem;
-}
-
-a:hover{
-  color: #7AC5CD;
 }
 
 .con{
@@ -29,7 +25,7 @@ a:hover{
 }
 
 
-#hello{
+#bg{
   position: fixed;
   top: 0;
   left: 0;
@@ -37,47 +33,30 @@ a:hover{
 }
 .head{
     width: 100%;
-    height: 1rem;
     margin: 7% 0 5% 0;
     display: flex;
     align-items: center;
     justify-content: center;
     letter-spacing: 0.2rem;
+    font-size: 1.7rem;
 }
 #icon{
-    width: 2rem;
-    height: 2rem;
+    width: 2.1rem;
+    height: 2.1rem;
     vertical-align: text-bottom;
 }
 
-#view{
-  /*display: flex;
-  flex-direction:column;*/
-  /*justify-content: center;
-  align-items: center;*/
-}
 .row{
     width: 100%;
-    line-height: 13vh;
+    height: 12vh;
     display: flex;
     align-items: center;
     justify-content: flex-start;
     flex-direction:row;
+    margin-left:6vw; 
     font-size: 1.7rem;
 }
 
-.tit{
-    min-width: 12vw;
-    letter-spacing: 1.5vw;
-}
-
-.list{
-    display: flex;
-    flex-direction:row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    margin-left: 4rem;
-}
 .block{
     min-width: 18vw;
     display: flex;
@@ -87,8 +66,9 @@ a:hover{
 }
 
 .block img{
-    width: 1.4rem;
-    height: 1.4rem;
+    width: 1.7rem;
+    height: 1.7rem;
+    margin-right:0.5rem; 
 }
 
 .footer{
@@ -99,48 +79,35 @@ a:hover{
     align-items: center;
     justify-content: center;
 }
+.footer span{
+    margin: 0 0.5rem;
+}
 
+@media all and (max-width: 1100px) {
 
-@media all and (max-width: 720px) {
-
-    .con,.head,.row,.list,.block,.footer{
+    .con,.row{
         display: block;
     }
 
-    #hello{
-        display: none;
-    }
-
     .head,.footer{
-      height: 5rem;
-      line-height: 5rem;
-    }
-    body{
-      font-size: 3.6vw;
+      height: 6rem;
+      line-height: 6rem;
     }
 
     .con{
-        width: 72%;
+        width: 60%;
         margin: 0 auto;
 
     }
     .row{
-
-    }
-    .tit{
-        height: 3rem;
-        line-height: 3.1rem;
-        width: 100%;
-        border-bottom: 0.1rem dashed #ccc;
-    }
-
-    .list{
-        width: 100%;
+        margin:auto;
+        height:auto;
     }
 
     .block{
-        height: 3rem;
-        line-height: 3rem; 
-        width: 50%;
+        height: 5rem;
+        line-height: 5rem; 
+        font-size: 1.8rem;
+        width: auto;
     }
 }
