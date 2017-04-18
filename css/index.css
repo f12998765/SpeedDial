@@ -94,10 +94,9 @@ a{
       line-height: 6rem;
     }
 
-    .con{
-        width: 60%;
+    #view{
+        width: 80%;
         margin: 0 auto;
-
     }
     .row{
         margin:auto;
