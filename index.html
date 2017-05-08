@@ -17,7 +17,7 @@
         <div id="view">
                 <div class="row" v-for="webs in xjson">
                     <div class="block" v-for="web in webs.list">
-                        <img :src="'http://icon.xizero.com/icon?url='+getImage(web.url)+'&size=16..32..64'" >
+                        <img :src="'http://icon.xizero.com/icon?url='+getImage(web.url)+'&size=16..32..64'" > 
                         <a :href="web.url" target="_blank" rel="noopener">
                             {{web.name}}
                         </a>

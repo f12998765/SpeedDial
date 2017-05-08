@@ -3,37 +3,38 @@
         "tit": "资讯",
         "list": [
             {
-                "name": "掘金",
-                "url": "https://juejin.im/"
-            },
-            {
                 "name": "V2EX",
                 "url": "https://v2ex.com/"
+            },
+            {
+                "name": "深蓝阅读",
+                "url": "http://bluereader.org"
             },
             {
                 "name": "滴答清单",
                 "url": "https://www.dida365.com/"
             },
             {
-                "name": "XIZERO",
-                "url": "https://www.xizero.com/"
+                "name": "ifeve",
+                "url": "http://ifeve.com/"
             }
+
         ]
     },
     {
         "tit": "成长",
         "list": [
             {
-                "name": "牛客网",
-                "url": "https://www.nowcoder.com"
+                "name": "Zwiki",
+                "url": "https://wiki.xizero.com/"
+            },
+            {
+                "name": "StackFlow",
+                "url": "https://stackflow.com/"
             },
             {
                 "name": "Github",
                 "url": "https://github.com/"
-            },
-            {
-                "name": "Gitbook",
-                "url": "https://www.gitbook.com/explore"
             },
             {
                 "name": "腾讯云",
@@ -45,6 +46,10 @@
         "tit": "生活",
         "list": [
             {
+                "name": "微信",
+                "url": "https://wx.qq.com/"
+            },
+            {
                 "name": "哔哩哔哩",
                 "url": "https://www.bilibili.com/"
             },
@@ -53,33 +58,29 @@
                 "url": "https://douban.fm"
             },
             {
-                "name": "奶牛快传",
-                "url": "http://cowfactory.cn/"
-            },
-            {
-                "name": "Google 翻译",
-                "url": "https://translate.google.cn/"
+                "name": "wf wiki",
+                "url": "http://warframe.huiji.wiki"
             }
         ]
     },
     {
-        "tit": "椴木",
+        "tit": "安全",
         "list": [
             {
-                "name": "InfoQ",
-                "url": "http://www.infoq.com/cn/java/"
+                "name": "FREEBUF",
+                "url": "http://www.freebuf.com/"
             },
             {
-                "name": "ifeve.com",
-                "url": "http://ifeve.com/"
+                "name": "SecWiki",
+                "url": "https://www.sec-wiki.com/"
             },
             {
-                "name": "ImportNew",
-                "url": "http://www.importnew.com/"
+                "name": "Seebug",
+                "url": "https://www.seebug.org/"
             },
             {
-                "name": "developerWorks",
-                "url": "https://www.ibm.com/developerworks/cn/"
+                "name": "Exploit DB",
+                "url": "https://www.exploit-db.com/"
             }
         ]
     }
