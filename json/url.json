@@ -25,7 +25,7 @@
         "tit": "成长",
         "list": [
             {
-                "name": "Zwiki",
+                "name": "wiki",
                 "url": "https://wiki.xizero.com/"
             },
             {
@@ -46,20 +46,20 @@
         "tit": "生活",
         "list": [
             {
-                "name": "微信",
-                "url": "https://wx.qq.com/"
+                "name": "爱范儿",
+                "url": "http://www.ifanr.com/"
             },
             {
                 "name": "哔哩哔哩",
                 "url": "https://www.bilibili.com/"
             },
             {
-                "name": "豆瓣 FM",
-                "url": "https://douban.fm"
+                "name": "翻译",
+                "url": "https://translate.google.cn/"
             },
             {
-                "name": "wf wiki",
-                "url": "http://warframe.huiji.wiki"
+                "name": "Maven",
+                "url": "https://mvnrepository.com/"
             }
         ]
     },
