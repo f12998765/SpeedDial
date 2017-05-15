@@ -11,12 +11,12 @@
                 "url": "http://bluereader.org"
             },
             {
-                "name": "滴答清单",
-                "url": "https://www.dida365.com/"
+                "name": "wiki",
+                "url": "https://wiki.xizero.com/"
             },
             {
-                "name": "ifeve",
-                "url": "http://ifeve.com/"
+                "name": "翻译",
+                "url": "https://translate.google.cn/"
             }
 
         ]
@@ -24,13 +24,14 @@
     {
         "tit": "成长",
         "list": [
+
             {
-                "name": "wiki",
-                "url": "https://wiki.xizero.com/"
+                "name": "IBM",
+                "url": "https://www.ibm.com/developerworks/cn/"
             },
             {
-                "name": "StackFlow",
-                "url": "https://stackflow.com/"
+                "name": "ifeve",
+                "url": "http://ifeve.com/"
             },
             {
                 "name": "Github",
@@ -40,27 +41,30 @@
                 "name": "腾讯云",
                 "url": "https://www.qcloud.com/"
             }
+
         ]
     },
     {
         "tit": "生活",
         "list": [
             {
-                "name": "爱范儿",
-                "url": "http://www.ifanr.com/"
-            },
-            {
                 "name": "哔哩哔哩",
                 "url": "https://www.bilibili.com/"
             },
             {
-                "name": "翻译",
-                "url": "https://translate.google.cn/"
+                "name": "豆瓣FM",
+                "url": "https://douban.fm/"
             },
+
             {
                 "name": "Maven",
                 "url": "https://mvnrepository.com/"
+            },
+            {
+                "name": "滴答清单",
+                "url": "https://www.dida365.com/"
             }
+
         ]
     },
     {
@@ -76,7 +80,8 @@
             },
             {
                 "name": "Seebug",
-                "url": "https://www.seebug.org/"
+                "url": "https://www.seebug.org/",
+                "img": "https://www.seebug.org/static/images/favicon.ico"
             },
             {
                 "name": "Exploit DB",

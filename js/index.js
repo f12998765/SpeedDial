@@ -18,17 +18,15 @@ var vm = new Vue({
     
     },
     methods: {
-        getImage: function (s) {
+        getImage: function (web) {
+            s=web.url;
             var n=s.lastIndexOf('/');
 
-            if(s.indexOf('http://www.importnew.com/')!=-1)
-                return s+"&size=16..16..64";
-
-            if(n==7||n==6||n==(s.length-1))
-                return s;
-            else
-                return s.substr(0,n);
-            return s;
+            if(!(n==7||n==6||n==(s.length-1)))
+                s=s.substr(0,n);
+            if(web.hasOwnProperty('img'))
+                return web.img;
+            return 'http://icon.xizero.com/icon?url='+s+'&size=16..32..64';
         }
     }
 
