@@ -17,7 +17,7 @@
         <div id="view">
                 <div class="row" v-for="webs in xjson">
                     <div class="block" v-for="web in webs.list">
-                        <img :src="getImage(web)" > 
+                        <img :src="getImage(web)" >
                         <a :href="web.url" target="_blank" rel="noopener">
                             {{web.name}}
                         </a>
@@ -25,8 +25,8 @@
                 </div>
         </div>
         <footer class="footer">
-            <a href="https://www.xizero.com/">@XIZERO.com</a><span>Since July 2016</span>  
-            <a class="github-button" href="https://github.com/f12998765/SpeedDial" data-icon="octicon-star" data-style="mega" data-count-href="/f12998765/SpeedDial/stargazers" data-count-api="/repos/f12998765/SpeedDial#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star f12998765/SpeedDial on GitHub">Star</a>  
+            <a href="https://www.xizero.com/">@XIZERO.com</a><span>Since July 2016</span>
+            <!-- <a class="github-button" href="https://github.com/f12998765/SpeedDial" data-icon="octicon-star" data-style="mega" data-count-href="/f12998765/SpeedDial/stargazers" data-count-api="/repos/f12998765/SpeedDial#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star f12998765/SpeedDial on GitHub">Star</a>   -->
         </footer>
     </div>
     <canvas id="bg" width="1366" height="702"></canvas>

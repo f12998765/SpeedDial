@@ -15,7 +15,7 @@ var vm = new Vue({
         }).catch(function(ex) {
             console.log('parsing failed', ex)
         })
-    
+
     },
     methods: {
         getImage: function (web) {
@@ -26,28 +26,28 @@ var vm = new Vue({
                 s=s.substr(0,n);
             if(web.hasOwnProperty('img'))
                 return web.img;
-            return 'http://icon.xizero.com/icon?url='+s+'&size=16..32..64';
+            return 'http://icon.xizero.com/icon?url='+s+'&size=32..32..120';
         }
     }
 
 })
 
-var os = function() {  
-     var ua = navigator.userAgent,  
-     isWindowsPhone = /(?:Windows Phone)/.test(ua),  
-     isSymbian = /(?:SymbianOS)/.test(ua) || isWindowsPhone,   
-     isAndroid = /(?:Android)/.test(ua),   
-     isFireFox = /(?:Firefox)/.test(ua),   
-     isChrome = /(?:Chrome|CriOS)/.test(ua),  
-     isTablet = /(?:iPad|PlayBook)/.test(ua) || (isAndroid && !/(?:Mobile)/.test(ua)) || (isFireFox && /(?:Tablet)/.test(ua)),  
-     isPhone = /(?:iPhone)/.test(ua) && !isTablet,  
-     isPc = !isPhone && !isAndroid && !isSymbian;  
-     return {  
-          isTablet: isTablet,  
-          isPhone: isPhone,  
-          isAndroid : isAndroid,  
-          isPc : isPc  
-     };  
+var os = function() {
+     var ua = navigator.userAgent,
+     isWindowsPhone = /(?:Windows Phone)/.test(ua),
+     isSymbian = /(?:SymbianOS)/.test(ua) || isWindowsPhone,
+     isAndroid = /(?:Android)/.test(ua),
+     isFireFox = /(?:Firefox)/.test(ua),
+     isChrome = /(?:Chrome|CriOS)/.test(ua),
+     isTablet = /(?:iPad|PlayBook)/.test(ua) || (isAndroid && !/(?:Mobile)/.test(ua)) || (isFireFox && /(?:Tablet)/.test(ua)),
+     isPhone = /(?:iPhone)/.test(ua) && !isTablet,
+     isPc = !isPhone && !isAndroid && !isSymbian;
+     return {
+          isTablet: isTablet,
+          isPhone: isPhone,
+          isAndroid : isAndroid,
+          isPc : isPc
+     };
 }();
 
 if(os.isPc||os.isTablet){
@@ -75,7 +75,7 @@ if(os.isPc||os.isTablet){
         q=[{x:0,y:h*.7+f},{x:0,y:h*.7-f}]
         while(q[1].x<w+f) d(q[0], q[1])
     }
-    function d(i,j){   
+    function d(i,j){
         x.beginPath()
         x.moveTo(i.x, i.y)
         x.lineTo(j.x, j.y)
@@ -97,5 +97,3 @@ if(os.isPc||os.isTablet){
     document.ontouchstart = i
     i()
 }
-
-

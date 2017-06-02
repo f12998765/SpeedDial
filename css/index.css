@@ -13,7 +13,7 @@ body{
 a{
   text-decoration: none;
   color: #182532;
-  letter-spacing: 0.05rem;
+  letter-spacing: 0.02rem;
 }
 
 .con{
@@ -53,7 +53,7 @@ a{
     align-items: center;
     justify-content: flex-start;
     flex-direction:row;
-    margin-left:6vw; 
+    margin-left:6vw;
     font-size: 1.6rem;
 }
 
@@ -66,9 +66,9 @@ a{
 }
 
 .block img{
-    width: 1.7rem;
-    height: 1.7rem;
-    margin-right:0.5rem; 
+    width: 1.66rem;
+    height: 1.66rem;
+    margin-right:0.5rem;
 }
 
 .footer{
@@ -105,7 +105,7 @@ a{
 
     .block{
         height: 5rem;
-        line-height: 5rem; 
+        line-height: 5rem;
         font-size: 1.8rem;
         width: auto;
     }

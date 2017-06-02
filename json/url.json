@@ -7,41 +7,38 @@
                 "url": "https://v2ex.com/"
             },
             {
-                "name": "深蓝阅读",
-                "url": "http://bluereader.org"
+                "name": "One",
+                "url": "http://reader.one/"
             },
             {
-                "name": "wiki",
+                "name": "Readhub",
+                "url": "https://readhub.me/"
+            },
+            {
+                "name": "Wiki",
                 "url": "https://wiki.xizero.com/"
-            },
-            {
-                "name": "翻译",
-                "url": "https://translate.google.cn/"
             }
-
         ]
     },
     {
         "tit": "成长",
         "list": [
-
             {
-                "name": "IBM",
-                "url": "https://www.ibm.com/developerworks/cn/"
-            },
-            {
-                "name": "ifeve",
-                "url": "http://ifeve.com/"
+                "name": "SecWiki",
+                "url": "https://www.sec-wiki.com/"
             },
             {
                 "name": "Github",
                 "url": "https://github.com/"
             },
             {
+                "name": "Gitlab",
+                "url": "https://about.gitlab.com/"
+            },
+            {
                 "name": "腾讯云",
                 "url": "https://www.qcloud.com/"
             }
-
         ]
     },
     {
@@ -55,37 +52,36 @@
                 "name": "豆瓣FM",
                 "url": "https://douban.fm/"
             },
-
             {
-                "name": "Maven",
-                "url": "https://mvnrepository.com/"
+                "name": "Steam",
+                "url": "http://store.steampowered.com/",
+                "img": "http://store.steampowered.com/favicon.ico"
+            },
+            {
+                "name": "MCBBS",
+                "url": "http://www.mcbbs.net/"
+            }
+        ]
+    },
+    {
+        "tit": "工具",
+        "list": [
+            {
+                "name": "Inobx",
+                "url": "https://inbox.google.com/",
+                "img": "https://ox.xizero.com/uploads/2017/06/inbox.png"
+            },
+            {
+                "name": "IFTTT",
+                "url": "https://ifttt.com/"
             },
             {
                 "name": "滴答清单",
                 "url": "https://www.dida365.com/"
-            }
-
-        ]
-    },
-    {
-        "tit": "安全",
-        "list": [
-            {
-                "name": "FREEBUF",
-                "url": "http://www.freebuf.com/"
             },
             {
-                "name": "SecWiki",
-                "url": "https://www.sec-wiki.com/"
-            },
-            {
-                "name": "Seebug",
-                "url": "https://www.seebug.org/",
-                "img": "https://www.seebug.org/static/images/favicon.ico"
-            },
-            {
-                "name": "Exploit DB",
-                "url": "https://www.exploit-db.com/"
+                "name": "Stack Overflow",
+                "url": "https://stackoverflow.com/"
             }
         ]
     }
