@@ -7,15 +7,17 @@
                 "url": "https://v2ex.com/"
             },
             {
-                "name": "One",
-                "url": "http://reader.one/"
+                "name": "Twitter",
+                "url": "https://twitter.com/",
+                "img": "https://ox.xizero.com/uploads/2017/06/twitter_.png"
             },
             {
-                "name": "Readhub",
-                "url": "https://readhub.me/"
+                "name": "Keep",
+                "url": "https://keep.google.com/",
+                "img": "https://ox.xizero.com/uploads/2017/06/keep.png"
             },
             {
-                "name": "Wiki",
+                "name": "wiki",
                 "url": "https://wiki.xizero.com/"
             }
         ]
@@ -45,28 +47,6 @@
         "tit": "生活",
         "list": [
             {
-                "name": "哔哩哔哩",
-                "url": "https://www.bilibili.com/"
-            },
-            {
-                "name": "豆瓣FM",
-                "url": "https://douban.fm/"
-            },
-            {
-                "name": "Steam",
-                "url": "http://store.steampowered.com/",
-                "img": "http://store.steampowered.com/favicon.ico"
-            },
-            {
-                "name": "MCBBS",
-                "url": "http://www.mcbbs.net/"
-            }
-        ]
-    },
-    {
-        "tit": "工具",
-        "list": [
-            {
                 "name": "Inobx",
                 "url": "https://inbox.google.com/",
                 "img": "https://ox.xizero.com/uploads/2017/06/inbox.png"
@@ -76,12 +56,35 @@
                 "url": "https://ifttt.com/"
             },
             {
-                "name": "滴答清单",
-                "url": "https://www.dida365.com/"
+                "name": "哔哩哔哩",
+                "url": "https://www.bilibili.com/"
             },
             {
-                "name": "Stack Overflow",
-                "url": "https://stackoverflow.com/"
+                "name": "ACFUN",
+                "url": "http://www.acfun.cn/"
+            }
+        ]
+    },
+    {
+        "tit": "游戏",
+        "list": [
+            {
+                "name": "GOL",
+                "url": "https://www.gamingonlinux.com/",
+                "img": "https://ox.xizero.com/uploads/2017/06/gol.png"
+            },
+            {
+                "name": "Steam",
+                "url": "http://store.steampowered.com/",
+                "img": "http://store.steampowered.com/favicon.ico"
+            },
+            {
+                "name": "蒸汽动力",
+                "url": "https://steamcn.com/forum.php"
+            },
+            {
+                "name": "我的世界",
+                "url": "http://www.mcbbs.net/"
             }
         ]
     }
