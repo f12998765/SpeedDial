@@ -1,91 +1,88 @@
-[
-    {
-        "tit": "资讯",
-        "list": [
-            {
-                "name": "V2EX",
-                "url": "https://v2ex.com/"
-            },
-            {
-                "name": "Twitter",
-                "url": "https://twitter.com/",
-                "img": "https://ox.xizero.com/uploads/2017/06/twitter_.png"
-            },
-            {
-                "name": "Keep",
-                "url": "https://keep.google.com/",
-                "img": "https://ox.xizero.com/uploads/2017/06/keep.png"
-            },
-            {
-                "name": "wiki",
-                "url": "https://wiki.xizero.com/"
-            }
-        ]
-    },
-    {
-        "tit": "成长",
-        "list": [
-            {
-                "name": "SecWiki",
-                "url": "https://www.sec-wiki.com/"
-            },
-            {
-                "name": "Github",
-                "url": "https://github.com/"
-            },
-            {
-                "name": "Gitlab",
-                "url": "https://about.gitlab.com/"
-            },
-            {
-                "name": "腾讯云",
-                "url": "https://www.qcloud.com/"
-            }
-        ]
-    },
-    {
-        "tit": "生活",
-        "list": [
-            {
-                "name": "Inobx",
-                "url": "https://inbox.google.com/",
-                "img": "https://ox.xizero.com/uploads/2017/06/inbox.png"
-            },
-            {
-                "name": "IFTTT",
-                "url": "https://ifttt.com/"
-            },
-            {
-                "name": "哔哩哔哩",
-                "url": "https://www.bilibili.com/"
-            },
-            {
-                "name": "ACFUN",
-                "url": "http://www.acfun.cn/"
-            }
-        ]
-    },
-    {
-        "tit": "游戏",
-        "list": [
-            {
-                "name": "GOL",
-                "url": "https://www.gamingonlinux.com/",
-                "img": "https://ox.xizero.com/uploads/2017/06/gol.png"
-            },
-            {
-                "name": "Steam",
-                "url": "http://store.steampowered.com/",
-                "img": "http://store.steampowered.com/favicon.ico"
-            },
-            {
-                "name": "蒸汽动力",
-                "url": "https://steamcn.com/forum.php"
-            },
-            {
-                "name": "我的世界",
-                "url": "http://www.mcbbs.net/"
-            }
-        ]
-    }
+[{
+    "tit": "资讯",
+    "list": [{
+        "name": "V2EX",
+        "url": "https://v2ex.com/"
+      },
+      {
+        "name": "Google",
+        "url": "https://www.google.com.hk/",
+        "img": "https://ox.xizero.com/uploads/2017/07/google.png"
+      },
+      {
+        "name": "freebuf",
+        "url": "http://www.freebuf.com/",
+        "img": "https://ox.xizero.com/uploads/2017/07/freebuf.jpg"
+      },
+      {
+        "name": "Github",
+        "url": "https://github.com/f12998765"
+      }
+    ]
+  },
+  {
+    "tit": "游戏",
+    "list": [{
+        "name": "Twitter",
+        "url": "https://twitter.com/",
+        "img": "https://ox.xizero.com/uploads/2017/06/twitter_.png"
+      },
+      {
+        "name": "哔哩哔哩",
+        "url": "https://www.bilibili.com/"
+      },
+      {
+        "name": "蒸汽动力",
+        "url": "https://steamcn.com/forum.php"
+      },
+      {
+        "name": "Steam",
+        "url": "http://store.steampowered.com/",
+        "img": "http://store.steampowered.com/favicon.ico"
+      }
+    ]
+  },
+  {
+    "tit": "生活",
+    "list": [{
+        "name": "Inobx",
+        "url": "https://inbox.google.com/",
+        "img": "https://ox.xizero.com/uploads/2017/06/inbox.png"
+      },
+      {
+        "name": "翻译",
+        "url": "https://translate.google.cn/"
+      },
+      {
+        "name": "Keep",
+        "url": "https://keep.google.com/",
+        "img": "https://ox.xizero.com/uploads/2017/06/keep.png"
+      },
+      {
+        "name": "IFTTT",
+        "url": "https://ifttt.com/"
+      }
+    ]
+  },
+  {
+    "tit": "成长",
+    "list": [{
+        "name": "掘金",
+        "url": "https://juejin.im/"
+      },
+      {
+        "name": "Works",
+        "url": "https://www.ibm.com/developerworks/cn/"
+      },
+      {
+        "name": "腾讯云",
+        "url": "https://www.qcloud.com/"
+      },
+      {
+        "name": "stackoverflow",
+        "url": "https://stackoverflow.com/"
+      }
+
+    ]
+  }
 ]
