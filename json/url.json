@@ -5,9 +5,8 @@
         "url": "https://v2ex.com/"
       },
       {
-        "name": "Google",
-        "url": "https://www.google.com.hk/",
-        "img": "https://ox.xizero.com/uploads/2017/07/google.png"
+          "name": "掘金",
+          "url": "https://juejin.im/"
       },
       {
         "name": "freebuf",
@@ -15,8 +14,30 @@
         "img": "https://ox.xizero.com/uploads/2017/07/freebuf.jpg"
       },
       {
+        "name": "wiki",
+        "url": "https://wiki.xizero.com/"
+      }
+    ]
+  },
+  {
+    "tit": "生活",
+    "list": [
+      {
+        "name": "Google",
+        "url": "https://www.google.com.hk/",
+        "img": "https://ox.xizero.com/uploads/2017/07/google.png"
+      },
+      {
         "name": "Github",
         "url": "https://github.com/f12998765"
+      },
+      {
+        "name":"GitBook",
+        "url": "https://www.gitbook.com/explore"
+      },
+      {
+        "name": "翻译",
+        "url": "https://translate.google.cn/"
       }
     ]
   },
@@ -28,55 +49,33 @@
         "img": "https://ox.xizero.com/uploads/2017/06/twitter_.png"
       },
       {
+        "name": "reddit",
+        "url": "https://www.reddit.com/"
+      },
+      {
         "name": "哔哩哔哩",
         "url": "https://www.bilibili.com/"
       },
       {
         "name": "蒸汽动力",
         "url": "https://steamcn.com/forum.php"
-      },
-      {
-        "name": "Steam",
-        "url": "http://store.steampowered.com/",
-        "img": "http://store.steampowered.com/favicon.ico"
-      }
-    ]
-  },
-  {
-    "tit": "生活",
-    "list": [{
-        "name": "Inobx",
-        "url": "https://inbox.google.com/",
-        "img": "https://ox.xizero.com/uploads/2017/06/inbox.png"
-      },
-      {
-        "name": "翻译",
-        "url": "https://translate.google.cn/"
-      },
-      {
-        "name": "Keep",
-        "url": "https://keep.google.com/",
-        "img": "https://ox.xizero.com/uploads/2017/06/keep.png"
-      },
-      {
-        "name": "IFTTT",
-        "url": "https://ifttt.com/"
       }
     ]
   },
   {
     "tit": "成长",
-    "list": [{
-        "name": "掘金",
-        "url": "https://juejin.im/"
+    "list": [
+      {
+        "name": "CastBox",
+        "url": "https://castbox.fm/home?country=cn"
       },
       {
         "name": "Works",
         "url": "https://www.ibm.com/developerworks/cn/"
       },
       {
-        "name": "腾讯云",
-        "url": "https://www.qcloud.com/"
+        "name": "Product Hunt",
+        "url": "https://www.producthunt.com/"
       },
       {
         "name": "stackoverflow",
