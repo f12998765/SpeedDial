@@ -1,0 +1,51 @@
+body,p,li,ul,ol,input{padding: 0;margin: 0;}
+.con{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.con img{
+    margin-top: -200px;
+}
+.so{
+    width: 588px;
+    height: 44px;
+    background-color: #fff;
+    vertical-align: top;
+    border-radius: 2px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+    transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.so:hover {
+    box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
+}
+
+.in{
+    float: left;
+    display: inline-block;
+    width: 525px;
+    height: 39px;
+    padding: 5px 0 0 16px;
+}
+.in input{
+    width: 100%;
+    border: none;
+    outline: none;
+    font: 16px arial,sans-serif;
+    line-height: 34px;
+    height: 34px;
+}
+
+.so .sub{
+    float: right;
+    width: 44px;
+    height: 44px;
+    padding: 0 1.5px;
+    background:url("../img/so.svg") no-repeat center center; 
+    background-size: 72% 72%;
+    cursor: pointer;
+}
