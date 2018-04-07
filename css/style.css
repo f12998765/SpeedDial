@@ -1,3 +1,24 @@
+@media screen and (min-width: 768px){
+    :root{
+        --img_size:30vh;
+        --so_size:46vw;
+        --url_size:60vw;
+    }
+}
+@media screen and (max-width: 1366px){
+    :root{
+        --img_size:200px;
+        --so_size:62vw;
+        --url_size:66vw;
+    }
+}
+@media screen and (max-width: 500px){
+    :root{
+        --img_size:30vw;
+        --so_size:88vw;
+        --url_size:96vw;
+    }
+}
 body,p,li,ul,ol,input{padding: 0;margin: 0;}
 .con{
     width: 100vw;
@@ -8,10 +29,12 @@ body,p,li,ul,ol,input{padding: 0;margin: 0;}
     align-items: center;
 }
 .con img{
-    margin-top: -200px;
+    margin-top: calc(-1*var(--img_size));
+    width: var(--img_size);
+    height: var(--img_size);
 }
 .so{
-    width: 588px;
+    width: var(--so_size);
     height: 44px;
     background-color: #fff;
     vertical-align: top;
@@ -27,7 +50,7 @@ body,p,li,ul,ol,input{padding: 0;margin: 0;}
 .in{
     float: left;
     display: inline-block;
-    width: 525px;
+    width: calc(var(--so_size) - 47px - 16px);
     height: 39px;
     padding: 5px 0 0 16px;
 }
@@ -49,13 +72,10 @@ body,p,li,ul,ol,input{padding: 0;margin: 0;}
     background-size: 72% 72%;
     cursor: pointer;
 }
-.url{
-    position: absolute;
-    height: 200px;
-    margin-top: 150px;
-}
+
 .ul{
-    max-width: 770px;
+    margin-top: 10px;
+    max-width: var(--url_size);
     display: flex;
     justify-content:center;
     flex-wrap:wrap;
@@ -67,6 +87,7 @@ body,p,li,ul,ol,input{padding: 0;margin: 0;}
     float: left;
     margin: 0 15px;
     text-align: center;
+    font-size: 16px;
 }
 .ul li a{
     color: #AAA;
