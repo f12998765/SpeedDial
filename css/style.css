@@ -1,11 +1,11 @@
-@media screen and (min-width: 768px){
+@media screen and (min-width: 1366px){
     :root{
         --img_size:30vh;
         --so_size:46vw;
         --url_size:60vw;
     }
 }
-@media screen and (max-width: 1366px){
+@media screen and (max-width: 1365px){
     :root{
         --img_size:200px;
         --so_size:62vw;
