@@ -29,25 +29,13 @@ body,p,li,ul,ol,input{padding: 0;margin: 0;}
     justify-content:center;
     align-items: center;
 }
-.con_b{
-    background: #000;
-}
-.con_w{
-    background: #FFF;
-}
+
 #icon{
     margin-top: calc(-1*var(--img_size));
     width: var(--img_size);
     height: var(--img_size);
 }
-.icon_w{
-    background: url("../img/github_w.svg") no-repeat ;
-    background-size: 100% 100%;
-}
-.icon_b{
-    background: url("../img/github_b.svg") no-repeat ;
-    background-size: 100% 100%;
-}
+
 .so{
     width: var(--so_size);
     height: 44px;
@@ -63,7 +51,6 @@ body,p,li,ul,ol,input{padding: 0;margin: 0;}
 }
 
 .in{
-    float: left;
     display: inline-block;
     width: calc(var(--so_size) - 47px - 16px);
     height: 39px;
@@ -121,13 +108,4 @@ body,p,li,ul,ol,input{padding: 0;margin: 0;}
     top: 10px;
     right: 10px;
     cursor: pointer;
-}
-
-.theme_w{
-    background: url("../img/theme_w.svg") no-repeat ;
-    background-size: 100% 100%;
-}
-.theme_b{
-    background: url("../img/theme_b.svg") no-repeat ;
-    background-size: 100% 100%;
 }

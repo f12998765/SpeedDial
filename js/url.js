@@ -1,5 +1,9 @@
 var urls = [
   {
+    "name": "Inoreader",
+    "url": "https://www.inoreader.com/"
+  },
+  {
     "name": "LeetCode",
     "url": "https://leetcode-cn.com/"
   },
@@ -12,16 +16,8 @@ var urls = [
     "url": "https://v2ex.com/"
   },
   {
-    "name": "掘金",
-    "url": "https://juejin.im/"
-  },
-  {
     "name": "Github",
     "url": "https://github.com/f12998765"
-  },
-  {
-    "name": "翻译",
-    "url": "https://translate.google.cn/"
   },
   {
     "name": "哔哩哔哩",

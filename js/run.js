@@ -31,18 +31,14 @@ onload = function () {
     change_theme(false);
 }
 
-var classList = ["b","w"];
+var themes = ["light","night","nyan"];
 
 function change_theme(flag){
     var n = localStorage.getItem("theme");
     if(flag){
-        n++;n%=2;
+        n++;n%=themes.length;
         localStorage.setItem("theme",n);
     }
-    var con  = document.getElementById("con");
-    con.className="con_"+classList[n];
-    var icon = document.getElementById("icon");
-    icon.className="icon_"+classList[n];
-    var theme = document.getElementById("theme");
-    theme.className="theme_"+classList[n];
+    var css  = document.getElementById("css");
+    css.href = "theme/"+themes[n]+"/css/style.css";
 }
