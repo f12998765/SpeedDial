@@ -11,3 +11,10 @@
     background: url("../img/theme_nyan.png") no-repeat ;
     background-size: 100% 100%;
 }
+
+.ul li a{
+    color: #DDD;
+}
+.ul li:hover a{
+    color: #FFF;
+}

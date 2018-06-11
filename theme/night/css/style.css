@@ -11,3 +11,10 @@
     background: url("../img/theme_b.svg") no-repeat ;
     background-size: 100% 100%;
 }
+
+.ul li a{
+    color: #666;
+}
+.ul li:hover a{
+    color: #DDD;
+}
