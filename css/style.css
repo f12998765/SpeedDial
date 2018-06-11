@@ -20,10 +20,8 @@
     }
 }
 body,p,li,ul,ol,input{padding: 0;margin: 0;}
-body{
-    background: #000;
-}
-.con{
+
+#con{
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -31,10 +29,24 @@ body{
     justify-content:center;
     align-items: center;
 }
-.con img{
+.con_b{
+    background: #000;
+}
+.con_w{
+    background: #FFF;
+}
+#icon{
     margin-top: calc(-1*var(--img_size));
     width: var(--img_size);
     height: var(--img_size);
+}
+.icon_w{
+    background: url("../img/github_w.svg") no-repeat ;
+    background-size: 100% 100%;
+}
+.icon_b{
+    background: url("../img/github_b.svg") no-repeat ;
+    background-size: 100% 100%;
 }
 .so{
     width: var(--so_size);
@@ -100,4 +112,22 @@ body{
     color: #AAA;
     text-decoration:underline;
     cursor: pointer;
+}
+
+#theme{
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.theme_w{
+    background: url("../img/theme_w.svg") no-repeat ;
+    background-size: 100% 100%;
+}
+.theme_b{
+    background: url("../img/theme_b.svg") no-repeat ;
+    background-size: 100% 100%;
 }

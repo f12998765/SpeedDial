@@ -9,6 +9,8 @@ function run() {
         window.location.href = so + text;
     }
 }
+
+
 onload = function () {
     document.getElementById("sub").onclick = run;
     document.getElementById("text").onkeypress = function (e) {
@@ -23,4 +25,24 @@ onload = function () {
         li.appendChild(a);
         ul.appendChild(li);
     }
+    var theme = localStorage.getItem("theme");
+    if(theme==""||theme==undefined)
+        localStorage.setItem("theme",1);
+    change_theme(false);
+}
+
+var classList = ["b","w"];
+
+function change_theme(flag){
+    var n = localStorage.getItem("theme");
+    if(flag){
+        n++;n%=2;
+        localStorage.setItem("theme",n);
+    }
+    var con  = document.getElementById("con");
+    con.className="con_"+classList[n];
+    var icon = document.getElementById("icon");
+    icon.className="icon_"+classList[n];
+    var theme = document.getElementById("theme");
+    theme.className="theme_"+classList[n];
 }
