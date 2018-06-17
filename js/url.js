@@ -4,8 +4,8 @@ var urls = [
     "url": "https://www.inoreader.com/"
   },
   {
-    "name": "LeetCode",
-    "url": "https://leetcode-cn.com/"
+    "name": "Hacker News",
+    "url": "https://news.ycombinator.com/"
   },
   {
     "name": "wiki",
@@ -20,11 +20,11 @@ var urls = [
     "url": "https://github.com/f12998765"
   },
   {
-    "name": "哔哩哔哩",
-    "url": "https://www.bilibili.com/"
-  },
-  {
     "name": "Product Hunt",
     "url": "https://www.producthunt.com/"
+  },
+  {
+    "name": "嘀哩嘀哩",
+    "url": "http://www.dilidili.wang/"
   }
 ]
