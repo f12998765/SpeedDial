@@ -3,6 +3,7 @@ const CacheFile = [
     '/',
     '/manifest.json',
     '/favicon.ico',
+    '/logo.png',
     '/js/run.js',
     '/js/url.js',
     '/css/style.css',

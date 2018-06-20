@@ -1,20 +1,19 @@
 {
     "name": "GO Lite",
     "short_name": "GO",
-    "description": "简简单单快速出发",
     "display": "standalone",
     "start_url": "/",
     "scope": "/",
-    "orientation": "portrait",
+    "orientation": "any",
     "theme_color": "transparent",
-    "description": "",
     "background_color": "transparent",
     "related_applications": [],
     "prefer_related_applications": false,
     "icons": [
         {
-            "src": "/favicon.ico",
-            "sizes": "256x256"
+            "src": "./logo.png",
+            "sizes": "512x512",
+            "type": "image/png"
         }
     ]
 }
