@@ -33,7 +33,7 @@ onload = function () {
 }
 
 var themes = ["light", "night", "nyan"];
-
+var colors = ['#FFFFFF','#000000','#194894'];
 function change_theme (flag) {
     var n = localStorage.getItem("theme");
     if (flag) {
@@ -42,4 +42,6 @@ function change_theme (flag) {
     }
     var css = document.getElementById("css");
     css.href = "theme/" + themes[n] + "/css/style.css";
+    var color = document.getElementById("color");
+    color.content=colors[n];
 }
