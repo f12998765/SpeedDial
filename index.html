@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>GO</title>
+    <link rel="manifest" href="manifest.json">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -26,4 +27,14 @@
 <link rel="stylesheet" href="" id="css">
 <script src="js/url.js"></script>
 <script src="js/run.js"></script>
+<script>
+if (navigator.serviceWorker != null) {
+    navigator.serviceWorker.register('sw.js')
+      .then(function(registration) {
+        console.log('Registered events at scope: ', registration.scope);
+      }).catch(err => {
+      console.log("SW registration failed: ", err);
+    })
+  }
+</script>
 </html>

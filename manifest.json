@@ -1,0 +1,18 @@
+{
+    "name": "GO.xizero.com",
+    "short_name": "GO",
+    "display": "standalone",
+    "start_url": "/",
+    "theme_color": "transparent",
+    "description": "",
+    "orientation": "any",
+    "background_color": "transparent",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "/favicon.ico",
+            "sizes": "256x256"
+        }
+    ]
+}
