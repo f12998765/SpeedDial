@@ -12,13 +12,6 @@
         --url_size:66vw;
     }
 }
-@media screen and (max-width: 500px){
-    :root{
-        --img_size:30vw;
-        --so_size:88vw;
-        --url_size:96vw;
-    }
-}
 body,p,li,ul,ol,input{padding: 0;margin: 0;}
 
 #con{
