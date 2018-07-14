@@ -1,4 +1,4 @@
-const cacheName = 'GO-PWA-20180626';
+const cacheName = 'GO-PWA-20180714';
 const CacheFile = [
     '/',
     '/manifest.json',
