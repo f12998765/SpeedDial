@@ -4,6 +4,107 @@
         --so_size:46vw;
         --url_size:60vw;
     }
+    
+    #con{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+    }
+
+    #icon{
+        margin-top: calc(-1*var(--img_size));
+        width: var(--img_size);
+        height: var(--img_size);
+    }
+
+    .so{
+        width: var(--so_size);
+        height: 44px;
+        background-color: #fff;
+        vertical-align: top;
+        border-radius: 2px;
+        box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+        transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    }
+
+    .so:hover {
+        box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
+    }
+
+    .in{
+        display: inline-block;
+        width: calc(var(--so_size) - 47px - 16px);
+        height: 39px;
+        padding: 5px 0 0 16px;
+    }
+    .in input{
+        width: 100%;
+        border: none;
+        outline: none;
+        font: 16px arial,sans-serif;
+        line-height: 34px;
+        height: 34px;
+    }
+
+    .so .sub{
+        float: right;
+        width: 44px;
+        height: 44px;
+        padding: 0 1.5px;
+        background:url("../img/so.svg") no-repeat center center;
+        background-size: 72% 72%;
+        cursor: pointer;
+    }
+
+    .ul{
+        margin-top: 10px;
+        max-width: var(--url_size);
+        display: flex;
+        justify-content:center;
+        flex-wrap:wrap;
+    }
+    .ul li{
+        height: 33px;
+        line-height: 33px;
+        list-style-type: none;
+        float: left;
+        margin: 0 15px;
+        text-align: center;
+        font-size: 16px;
+    }
+    .ul li a{
+        color: #333;
+        text-decoration:none;
+    }
+    .ul li:hover a{
+        color: #AAA;
+        text-decoration:underline;
+        cursor: pointer;
+    }
+
+    .no-js{
+    width: 100vw;
+    height: 100vh;
+    line-height: 100vh;
+    text-align: center;
+    font-size: 2rem;
+    color: #FFF;
+    background-color: #194894;
+    position: fixed;
+    top: 0;
+    }
+
+    #theme{
+        width: 30px;
+        height: 30px;
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        cursor: pointer;
+    }
 }
 @media screen and (max-width: 1365px){
     :root{
@@ -13,104 +114,3 @@
     }
 }
 body,p,li,ul,ol,input{padding: 0;margin: 0;}
-
-#con{
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items: center;
-}
-
-#icon{
-    margin-top: calc(-1*var(--img_size));
-    width: var(--img_size);
-    height: var(--img_size);
-}
-
-.so{
-    width: var(--so_size);
-    height: 44px;
-    background-color: #fff;
-    vertical-align: top;
-    border-radius: 2px;
-    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
-    transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
-}
-
-.so:hover {
-    box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
-}
-
-.in{
-    display: inline-block;
-    width: calc(var(--so_size) - 47px - 16px);
-    height: 39px;
-    padding: 5px 0 0 16px;
-}
-.in input{
-    width: 100%;
-    border: none;
-    outline: none;
-    font: 16px arial,sans-serif;
-    line-height: 34px;
-    height: 34px;
-}
-
-.so .sub{
-    float: right;
-    width: 44px;
-    height: 44px;
-    padding: 0 1.5px;
-    background:url("../img/so.svg") no-repeat center center;
-    background-size: 72% 72%;
-    cursor: pointer;
-}
-
-.ul{
-    margin-top: 10px;
-    max-width: var(--url_size);
-    display: flex;
-    justify-content:center;
-    flex-wrap:wrap;
-}
-.ul li{
-    height: 33px;
-    line-height: 33px;
-    list-style-type: none;
-    float: left;
-    margin: 0 15px;
-    text-align: center;
-    font-size: 16px;
-}
-.ul li a{
-    color: #333;
-    text-decoration:none;
-}
-.ul li:hover a{
-    color: #AAA;
-    text-decoration:underline;
-    cursor: pointer;
-}
-
-.no-js{
-  width: 100vw;
-  height: 100vh;
-  line-height: 100vh;
-  text-align: center;
-  font-size: 2rem;
-  color: #FFF;
-  background-color: #194894;
-  position: fixed;
-  top: 0;
-}
-
-#theme{
-    width: 30px;
-    height: 30px;
-    position: fixed;
-    top: 10px;
-    right: 10px;
-    cursor: pointer;
-}
