@@ -4,20 +4,20 @@ var urls = [
     "url": "https://v2ex.com/"
   },
   {
-    "name": "Inoreader",
-    "url": "https://www.inoreader.com/"
+    "name": "reddit",
+    "url": "https://www.reddit.com/"
   },
   {
     "name": "SteamCN",
     "url": "https://steamcn.com/"
   },
   {
-    "name": "嘀哩嘀哩",
-    "url": "http://www.dilidili.wang/"
+    "name": "Github",
+    "url": "https://github.com/search"
   },
   {
-    "name": "Github",
-    "url": "https://github.com/f12998765"
+    "name": "StackOverflow",
+    "url": "https://stackoverflow.com/"
   },
   {
     "name": "wiki",
