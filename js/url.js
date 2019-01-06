@@ -4,12 +4,12 @@ var urls = [
     "url": "https://v2ex.com/"
   },
   {
-    "name": "reddit",
-    "url": "https://www.reddit.com/"
+    "name": "inoreader",
+    "url": "https://www.inoreader.com"
   },
   {
-    "name": "SteamCN",
-    "url": "https://steamcn.com/"
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com/news"
   },
   {
     "name": "Github",
