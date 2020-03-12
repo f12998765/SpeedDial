@@ -38,7 +38,7 @@ var urls_m = [
   {
     "name": "其乐",
     "url": "https://keylol.com/",
-    "src": "https://sm.ms/image/1Vdjf5sL4QNJvtl"
+    "src": "https://i.loli.net/2020/03/13/1Vdjf5sL4QNJvtl.png"
   },
   {
     "name": "游民星空",
