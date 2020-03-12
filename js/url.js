@@ -36,9 +36,9 @@ var urls_m = [
     "src": "https://i.loli.net/2018/07/14/5b49cbdc45318.png"
   },
   {
-    "name": "SteamCN",
-    "url": "https://steamcn.com/",
-    "src": "https://i.loli.net/2018/07/14/5b49cc9a43085.png"
+    "name": "其乐",
+    "url": "https://keylol.com/",
+    "src": "https://sm.ms/image/1Vdjf5sL4QNJvtl"
   },
   {
     "name": "游民星空",
